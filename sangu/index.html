@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>HospitalsIQ | Home</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/creative.css" type="text/css">
+     <link href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+      <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+      <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false&libraries=places"></script>
+    
+
+    <script type="text/javascript">
+     
+
+     google.maps.event.addDomListener(window, 'load', function () {
+            var places = new google.maps.places.Autocomplete(document.getElementById('loc'));
+            google.maps.event.addListener(places, 'place_changed', function () {
+                var place = places.getPlace();
+                var address = place.formatted_address;
+                var latitude = place.geometry.location.lat();
+                var longitude = place.geometry.location.lng();
+                var mesg = "Address: " + address;
+                mesg += "\nLatitude: " + latitude;
+                mesg += "\nLongitude: " + longitude;
+                alert(mesg);
+                 if(places!='\0')
+                  {
+                    $("#lonlat").hide();
+                    $('#rad').css('visibility', 'visible');
+                  }
+             });
+
+        });
+        
+        
+    </script>
+    
+
+    <script type="text/javascript">
+        google.maps.event.addDomListener(window, 'load', function () {
+            var places = new google.maps.places.Autocomplete(document.getElementById('location'));
+            google.maps.event.addListener(places, 'place_changed', function () {
+                var place = places.getPlace();
+                var address = place.formatted_address;
+                var latitude = place.geometry.location.lat();
+                var longitude = place.geometry.location.lng();
+                var mesg = "Address: " + address;
+                mesg += "\nLatitude: " + latitude;
+                mesg += "\nLongitude: " + longitude;
+                alert(mesg);
+               
+                 if(places!='\0')
+                  {
+                    $("#lonlat").hide();
+                    $('#rad').css('visibility', 'visible');
+                  }
+        
+             });
+        });
+    </script>
+
+    <script>
+         $(function() {
+            var availableTutorials = [
+               "Radiology",
+"Urology",
+"Veterinary",
+"Opthalmology",
+"Eye",
+"Gastroenterologist",
+"Cardiology",
+"Dental",
+"Anesthesiology",
+"Hematology",
+"Psychiatric",
+"Diabetes",
+"Cosmetic & Plastic Surgery",
+"Immunology",
+"Ayurveda",
+"Nephrology",
+"ENT",
+"Homeopathy",
+"Oncology",
+"Mental",
+"Cancer",
+"Orthopaedic",
+"Gynecology",
+"Rheumatology",
+"Neurology",
+"Maternity",
+"Dermatology",
+"Children"
+            ];
+            $( "#Radius" ).autocomplete({
+               minLength:1,   
+               delay:500,   
+               source: availableTutorials
+            });
+         });
+      </script>
+
+
+
+
+    <style type="text/css">
+    #loc{
+        position:relative;
+        top:100%;
+        font-size: 20px;
+        left:300px;
+        padding-top:85%;
+        padding-left:10%;
+        color:black;
+    }
+
+
+    #location{
+        position:relative;
+        top:0%;
+        left:1%;
+        font-size: 20px;
+        padding-top:8%;
+        padding-left:8%;
+        color:black;
+
+    }
+    #Radius{
+        position:relative;
+        top:100%;
+        font-size: 20px;
+        left:300px;
+        padding-top:85%;
+        padding-left:10%;
+        color:black;
+
+    }
+    #radius{
+        position:relative;
+        top:0%;
+        left:1%;
+        font-size: 20px;
+        padding-top:8%;
+        padding-left:8%;
+        color:black;
+
+
+    }
+
+</style>
+
+
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top" style="padding:7px;"><img src="img/hospitalsIQ2.png" /></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#about">About Us</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Ping Us</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+
+  
+
+
+
+    <section>
+    
+   
+    <div class="container-fluid" id="lonlat" style="position:absolute; top:35%;  padding-left:0;">
+        
+        <div class="row">
+          
+          <div class="col-lg-3 col-md-3 hidden-sm hidden-xs"></div>
+    
+            <div class="col-lg-1 col-md-1 hidden-sm hidden-xs" > <img src="img/loc1.png" style="position:relative; top:35px; left:310px; padding-top:75%; padding-left:70%;" /></div>
+
+
+            <div class="col-lg-2 col-md-2 hidden-sm hidden-xs" >
+
+                
+                <input type="text" name="loc" size="30" id="loc" class="text-line" />
+           
+            </div>
+            
+            <div class="col-lg-5 col-md-5 hidden-sm hidden-xs "></div>
+
+
+
+
+         
+    
+            <div class="hidden-lg hidden-md col-sm-2 col-xs-2" > <img src="img/loc1.png" style="position:relative; top:60%; left:20px; padding-top:40%; padding-left:70%;" /></div>
+
+
+            <div class="hidden-lg hidden-md col-sm-10 col-xs-10" >
+
+                
+                <input type="text" name="location" size="18" id="location" class="text-line" />
+           
+            </div>
+           
+       
+        </div>
+   
+    </div>
+
+
+    </section>
+    
+    <section>
+
+    <div class="container-fluid" id="rad" style="visibility:hidden; position:absolute; top:35%;  padding-left:0;">
+        
+        <div class="row">
+          
+          <div class="col-lg-3 col-md-3 hidden-sm hidden-xs"></div>
+    
+            
+            <div class="col-lg-1 col-md-1 hidden-sm hidden-xs" >
+
+             
+          <img src="img/home_care.png" style="position:relative; top:35px; left:260px; padding-top:100%; padding-left:60%;" /></div>
+       
+
+
+            <div class="col-lg-2 col-md-2 hidden-sm hidden-xs" >
+
+                
+                <input type="text" name="loc" size="30" id="Radius" class="text-line" placeholder="Enter the care required" />
+           
+            </div>
+           
+         
+
+            <div class="col-lg-5 col-md-5 hidden-sm hidden-xs "></div>
+
+
+
+
+         
+    
+            <div class="hidden-lg hidden-md col-sm-2 col-xs-2" > <img src="img/home_care.png" style="position:relative; top:55%; left:0px; padding-top:55%; padding-left:70%;" /></div>
+
+
+            <div class="hidden-lg hidden-md col-sm-10 col-xs-10" >
+
+                
+                <input type="text" name="location" id="radius" size="18"  class="text-line" placeholder="Enter the care required" />
+           
+            </div>
+           
+       
+        </div>
+   
+    </div>
+
+    </section>
+
+
+
+                
+    
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/creative.js"></script>
+
+</body>
+
+</html>
+</body>             
+ </html>
+
