@@ -25,6 +25,9 @@
     <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
     <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 
+    <link rel="stylesheet" type="text/css" href="css/awesomplete.css">
+    <script type="text/javascript" src="css/awesomplete.js"></script>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -91,7 +94,7 @@
     </script>
 
     <script>
-         $(function() {
+         /*$(function() {
             var availableTutorials = [
                "Radiology",
                 "Urology",
@@ -122,12 +125,12 @@
                 "Dermatology",
                 "Children"
                             ];
-            $( "#Radius" ).autocomplete({
+            $( "#care" ).autocomplete({
                minLength:1,   
                delay:500,   
                source: availableTutorials
             });
-         });
+         });*/
       </script>
 
 
@@ -280,7 +283,8 @@
             <div class="col-lg-2 col-md-2 hidden-sm hidden-xs" >
 
                 
-                <input type="text" name="care" size="30" id="care" class="text-line" placeholder="Enter the care required" />
+                <!-- <input class="awesomplete text-line" data-list="Ada, Java, JavaScript, Brainfuck, LOLCODE, Node.js, Ruby on Rails" /> -->
+                <input type="text" name="care" size="30" id="care" class="awesomplete text-line" placeholder="Enter the care required" data-list="Radiology,Urology,Veterinary,Opthalmology,Eye,Gastroenterologist,Cardiology,Dental,Anesthesiology,Hematology,Psychiatric,Diabetes,Cosmetic & Plastic Surgery,Immunology,Ayurveda,Nephrology,ENT,Homeopathy,Oncology,Mental,Cancer,Orthopaedic,Gynecology,Rheumatology,Neurology,Maternity,Dermatology,Children" />
                 <input type="submit" value="Submit">
            
             </div>
