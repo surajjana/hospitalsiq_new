@@ -1,0 +1,15 @@
+/* Shield UI 1.7.21 Trial Version | Copyright 2013-2016 Shield UI Ltd. | http://www.shieldui.com/eula */
+
+
+.sui-listbox,ul.sui-listbox{position:relative;display:block;list-style:none;color:#333;background-color:#fff;border-width:1px;border-style:solid;border-color:#e7e7e7;overflow-x:hidden;overflow-y:auto;margin:0;padding:0;outline:0;font-size:14px;font-family:'Helvetica Neue',â€‹Helvetica,â€‹Arial,â€‹sans-serif}
+.sui-listbox:focus{border-color:#4fa7ef}
+.sui-listbox-item{padding:.5em .3em;text-align:left}
+.sui-listbox-item:hover,.sui-listbox:focus .sui-listbox-item-active{cursor:pointer;color:#fff;background-color:#4fa7ef}
+.sui-listbox-item-selected{color:#fff;background-color:#428bca}
+.sui-listbox-disabled,.sui-listbox-disabled:active,.sui-listbox-disabled:focus{pointer-events:none;cursor:default;opacity:.4}
+
+
+.sui-autocomplete,ul.sui-autocomplete{position:absolute;display:none;list-style:none;margin:0;padding:0;max-height:300px;font-size:14px;font-family:'Helvetica Neue',â€‹Helvetica,â€‹Arial,â€‹sans-serif;z-index:1800}
+.sui-autocomplete-loading{background-repeat:no-repeat;background-position:right;background-image:url(../img/loading-light-bootstrap-small.gif)}
+.sui-input{color:#333;position:relative;top:-5px;background-color:#fff;border-color:#e7e7e7;border-style:solid;border-width:1px;width:250px;padding:.3em}
+e}

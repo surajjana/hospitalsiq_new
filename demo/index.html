@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/creative.css" type="text/css">
+        <link rel="stylesheet" href="css/humanoid.css" type="text/css">
+     <link rel="stylesheet" href="css/index.css" type="text/css">
+    <link href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/awesomplete.css">
+    <script type="text/javascript" src="js/awesomplete.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/all.min.css" />
+    <script type="text/javascript" src="http://www.shieldui.com/shared/components/latest/js/shieldui-all.min.js"></script>
+    <title>HospitalsIQ | Home</title>
+    
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<!-- <script type="text/javascript">
+    var cares = ["Radiology",
+                "Urology",
+                "Veterinary",
+                "Opthalmology",
+                "Eye",
+                "Gastroenterologist",
+                "Cardiology",
+                "Dental",
+                "Anesthesiology",
+                "Hematology",
+                "Psychiatric",
+                "Diabetes",
+                "Cosmetic & Plastic Surgery",
+                "Immunology",
+                "Ayurveda",
+                "Nephrology",
+                "ENT",
+                "Homeopathy",
+                "Oncology",
+                "Mental",
+                "Cancer",
+                "Orthopaedic",
+                "Gynecology",
+                "Rheumatology",
+                "Neurology",
+                "Maternity",
+                "Dermatology",
+                "Children"];
+    jQuery(function ($) {
+        $("#autocomplete1").shieldAutoComplete({
+            dataSource: {
+                data: cares
+            },
+            minLength: 1
+        });
+          $("#autocomplete2").shieldAutoComplete({
+            dataSource: {
+                data: cares
+            },
+            minLength: 1
+        });
+        
+    });
+</script>-->
+
+
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false&libraries=places"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+  
+        google.maps.event.addDomListener(window, 'load', function () {
+            var places = new google.maps.places.Autocomplete(document.getElementById('loc'));
+            google.maps.event.addListener(places, 'place_changed', function () {
+                var place = places.getPlace();
+                var address = place.formatted_address;
+                var latitude = place.geometry.location.lat();
+                var longitude = place.geometry.location.lng();
+                var mesg = "Address: " + address;
+                /*mesg += "\nLatitude: " + latitude;
+                mesg += "\nLongitude: " + longitude;
+                alert(mesg);*/
+                document.getElementById("lat").value = latitude;
+                document.getElementById("lon").value = longitude;
+                if(places!='\0')
+                    {
+                        $("#lonlat").hide();
+                        $('#care_div').css('display', 'block');
+                    }
+            });
+        });
+   
+        google.maps.event.addDomListener(window, 'load', function () {
+            var places = new google.maps.places.Autocomplete(document.getElementById('location'));
+            google.maps.event.addListener(places, 'place_changed', function () {
+                var place = places.getPlace();
+                var address = place.formatted_address;
+                var latitude = place.geometry.location.lat();
+                var longitude = place.geometry.location.lng();
+                var mesg = "Address: " + address;
+                mesg += "\nLatitude: " + latitude;
+                mesg += "\nLongitude: " + longitude;
+                /*alert(mesg);*/
+                document.getElementById("lat").value = latitude;
+                document.getElementById("lon").value = longitude;
+               
+                 if(places!='\0')
+                  {
+                    $("#lonlat").hide();
+                    $('#care_div').css('visibility', 'visible');
+                  }
+        
+             });
+        });
+
+
+  
+
+    
+
+        $('#a input').on('change', function(){
+            var gender = $('input[name="selector"]:checked', '#a').val();
+            console.log(gender);
+            if(gender === 'male'){
+                console.log("1");
+                
+                $('#female').css("display","none");
+                $('#male').css("display","block");
+            }else{
+                console.log("2");
+                $('#male').css("display","none");
+                $('#female').css("display","block");
+            }
+        });
+
+
+
+
+
+        $('.text-line').click(function(){
+            $('#care_div').css("display","none");
+          $('#humanoid').css("display","block");
+        });
+})
+</script>
+
+
+
+
+
+
+    <style type="text/css">
+    body{
+        overflow-x:hidden;
+    }
+   </style>
+<!--
+<script type="text/javascript">
+    var sel = document.getElementById('select_id');
+sel.addEventListener('click', function(el){
+    var options = this.children;
+    for(var i=0; i < this.childElementCount; i++){
+        options[i].style.background-color = 'transparent';
+    }
+    var selected = this.children[this.selectedIndex];
+        selected.style.color = 'red';
+    }, false);
+</script>-->
+
+
+</head>
+
+
+<body id="page-top">
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right ">
+                    <li>
+                        <a class="page-scroll " href="#about">About Us</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Ping Us</a>
+                    </li>
+                     <li>
+                        <a class="page-scroll" href="#contact">Notifictaions</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    
+<!--
+
+<section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 hidden-sm hidden-xs"></div>
+            <div class="col-lg-4 col-md-4  hidden-sm hidden-xs "><center><img style="position:relative;top:60px;" src="img/hospitalsIQ2.png" /></center></div>
+            <div class="col-lg-4 col-md-4 hidden-sm hidden-xs"></div>
+
+            <div class="hidden-lg hidden-md col-sm-12 col-xs-8"><center><img style="position:relative;top:80px;left:30px;" src="img/hospitalsIQ2.png" /></center></div>
+            
+        </div>
+    </div>
+</section>
+-->
+
+ 
+    <div class="container-fluid" id="lonlat">
+    <div class="row">
+            <div class="col-lg-4 col-md-4 hidden-sm hidden-xs"></div>
+            <div class="col-lg-4 col-md-4  hidden-sm hidden-xs "><center><img style="position:relative;top:60px;" src="img/hospitalsIQ2.png" /></center></div>
+            <div class="col-lg-4 col-md-4 hidden-sm hidden-xs"></div>
+
+            <div class="hidden-lg hidden-md col-sm-12 col-xs-8"><center><img style="position:relative;top:80px;left:30px;" src="img/hospitalsIQ2.png" /></center></div>
+            
+        </div>
+        <form action="test.php" id="frm" method="post">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 hidden-sm hidden-xs"></div>
+            <div class="col-lg-4 col-md-4 hidden-sm hidden-xs" >
+                <center>  
+                    <img src="img/loc1.png" class="animated tada " style="position:relative;top:165px;width:6%;left:-2p;" ></img>
+                <input type="text" name="loc" id="loc"  /></center>
+                <input type="hidden" name="lat" id="lat" value=""/>
+                <input type="hidden" name="lon" id="lon" value=""/>
+            </div>
+            <div class="col-lg-4 col-md-4 hidden-sm hidden-xs "></div>
+            <div class="hidden-lg hidden-md col-sm-10 col-xs-10" >
+                <center>
+                 <img src="img/loc1.png" class="animated tada i " style="position:relative;top:145px;width:6%;" ></img>
+                <input type="text" name="location" size="30" id="location"  />
+                </center>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div class="container-fluid" id="care_div" style="display: none; ">
+    <div class="row">
+            <div class="col-lg-4 col-md-4 hidden-sm hidden-xs"></div>
+            <div class="col-lg-4 col-md-4  hidden-sm hidden-xs "><center><img style="position:relative;top:60px;" src="img/hospitalsIQ2.png" /></center></div>
+            <div class="col-lg-4 col-md-4 hidden-sm hidden-xs"></div>
+
+            <div class="hidden-lg hidden-md col-sm-12 col-xs-8"><center><img style="position:relative;top:80px;left:30px;" src="img/hospitalsIQ2.png" /></center></div>
+            
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 hidden-sm hidden-xs"></div>
+            <div class="col-lg-4 col-md-4 hidden-sm hidden-xs" >
+                <select name="care" class="care" id="select_id"> 
+                    <option value="radiology">Radiology</option>
+                    <option value="urology">Urology</option>
+                    <option value="veterinary">Veterinary</option>
+                    <option value="opthalmology">Opthalmology</option>
+                    <option value="eye">Eye</option>
+                    <option value="gastroenterologist">Gastroenterologist</option>
+                    <option value="cardiology">Cardiology</option>
+                    <option value="dental">Dental</option>
+                    <option value="anesthesiology">Anesthesiology</option>
+                    <option value="hematology">Hematology</option>
+                    <option value="psychiatric">Psychiatric</option>
+                    <option value="diabetes">Diabetes</option>
+                    <option value="cosmetic&plastic surgery">Cosmetic & Plastic Surgery</option>
+                    <option value="immunology">Immunology</option>
+                    <option value="Ayurveda">Ayurveda</option>
+                    <option value="nephrology">Nephrology</option>
+                    <option value="ent">ENT</option>
+                    <option value="homeopathy">Homeopathy</option>
+                    <option value="oncology">Oncology</option>
+                    <option value="mental">Mental</option>
+                    <option value="cancer ">Cancer</option>
+                    <option value="orthopaedic">Orthopaedic</option>
+                    <option value="gynecology">Gynecology</option>
+                    <option value="rheumatology">Rheumatology</option>
+                    <option value="neurology">Neurology</option>
+                    <option value="maternity">Maternity</option>
+                    <option value="dermatology">Dermatology</option>
+                    <option value="children">Children</option>
+                </select>
+            </div>
+            <div class="col-lg-4 col-md-4 hidden-sm hidden-xs "></div>
+            <div class="hidden-lg hidden-md col-sm-6 col-xs-6" >
+                <select name="care" class="care_small" id="select_id"> 
+
+
+                    <option value="radiology">Radiology</option>
+                    <option value="urology">Urology</option>
+                    <option value="veterinary">Veterinary</option>
+                    <option value="opthalmology">Opthalmology</option>
+                    <option value="eye">Eye</option>
+                    <option value="gastroenterologist">Gastroenterologist</option>
+                    <option value="cardiology">Cardiology</option>
+                    <option value="dental">Dental</option>
+                    <option value="anesthesiology">Anesthesiology</option>
+                    <option value="hematology">Hematology</option>
+                    <option value="psychiatric">Psychiatric</option>
+                    <option value="diabetes">Diabetes</option>
+                    <option value="cosmetic&plastic surgery">Cosmetic & Plastic Surgery</option>
+                    <option value="immunology">Immunology</option>
+                    <option value="Ayurveda">Ayurveda</option>
+                    <option value="nephrology">Nephrology</option>
+                    <option value="ent">ENT</option>
+                    <option value="homeopathy">Homeopathy</option>
+                    <option value="oncology">Oncology</option>
+                    <option value="mental">Mental</option>
+                    <option value="cancer ">Cancer</option>
+                    <option value="orthopaedic">Orthopaedic</option>
+                    <option value="gynecology">Gynecology</option>
+                    <option value="rheumatology">Rheumatology</option>
+                    <option value="neurology">Neurology</option>
+                    <option value="maternity">Maternity</option>
+                    <option value="dermatology">Dermatology</option>
+                    <option value="children">Children</option>
+                </select>
+                <button type="submit" class="btn">Submit</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-4 hidden-sm hidden-xs"></div>
+            <div class="col-lg-4 col-md-4 hidden-sm hidden-xs" >
+                <button type="button" class="text-line">Enter your symptoms</button>
+            </div>
+            <div class="col-lg-4 col-md-4 hidden-sm hidden-xs "></div>
+            <div class="hidden-lg hidden-md col-sm-10 col-xs-10" >
+                <center>
+                    <button type="button"  class="care_small">Enter your symptoms</button>
+                </center>
+            </div>
+        </div>
+        </div>
+    </form>
+
+<div class="container-fluid" id="humanoid" style="display:none;">
+    <div class="row">
+        <div class="col-lg-2 col-md-2 hidden-sm hidden-xs"></div>
+        <div class="col-lg-3 col-md-3 hidden-sm hidden-xs"  id="male" style="display:block"">
+            <img src="img/human.png" style=" color:#fbc831;position:relative;top:120px;width:60%;"/>
+        </div>
+        <div class="col-lg-3 col-md-3  hidden-sm hidden-xs" id="female" style="display:none;">
+            <img src="img/humanoid_g.png" style=" color:#fbc831;position:relative;top:120px;left:10px;width:47%"/>
+        </div>
+        
+       
+        <div class="col-lg-5 col-md-5 hidden-sm hidden-xs">
+            <form id="a" >
+                <p style="color:white;">Name:</p><input type="text" class="info" name="name" placeholder="Enter your name" /><br> <br>
+                <p style="color:white;">Gender:</p>
+                <ul>
+                    <li>
+                        <input type="radio" id="s-option" name="selector" value="male">
+                        <label for="s-option">Male</label>
+                        <div class="check"><div class="inside"></div></div>
+                    </li>
+                    <li>
+                        <input type="radio" id="t-option" name="selector" value="female">
+                        <label for="t-option">Female</label>
+                        <div class="check"><div class="inside"></div></div>
+                    </li>
+                </ul>
+                <br>
+                   <p style="position:relative;
+                left:-356px;top:40px;color:white;">Age:</p><input type="text" name="age" class="info" placeholder="Enter your age" /><br> <br>
+                <p style="color:white;">Add the body part:</p><input type="text" name="part" class="info" placeholder="Enter the body part" /><br> <br>
+               
+                <p style="color:white;">Email:</p><input type="text" class="info" name="mail"  placeholder="Enter your email" /><br> 
+                <input id="round" type="submit" style="position:relative; left:63%;" value="Submit" />
+            </form>
+        </div>
+        <div class="col-lg-2 col-md-2 hidden-sm hidden-xs"></div>
+    </div>
+    </div> 
+
+
+
+
+
+
+
+
+
+                
+    
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/creative.js"></script>
+
+</body>
+
+
+</body>             
+ </html>
