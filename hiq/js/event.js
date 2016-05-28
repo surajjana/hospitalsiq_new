@@ -9,6 +9,7 @@ $.fn.Show = function(id,size) {
         		$('#'+id).css("display","block");
         	}
         }
+        $("html, body").animate({ scrollTop: 0 }, "slow");
     };
 
 });
