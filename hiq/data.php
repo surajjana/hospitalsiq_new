@@ -44,14 +44,14 @@ $json_data = json_decode($data, TRUE);
 		</div>
 	</div>
 	<div class="row" style="margin-top:30px;">
-		<div class="col-md-6" style="padding-left:15px;padding-right:15px; ">
+		<div class="col-md-6 col-sm-6 col-xs-6" style="padding-left:15px;padding-right:15px; ">
 			<?php  
 				for($i=0;$i<sizeof($json_data);$i++){
 					echo '<button class="btn btn-info btn-block" id="btn_'.(string)($i+1).'" onClick="$(this).Show(\''.($i+1).'\',\''.sizeof($json_data).'\');">'.$json_data[$i]["name"].'</button><br />';
 				}
 			?>
 		</div>
-		<div class="col-md-6">
+		<div class="col-md-6 col-sm-6 col-xs-6">
 			<?php  
 				/*for($i=0;$i<sizeof($json_data);$i++){
 					$res = '<div id="'.(string)($i+1).'" style="display:none;">';
