@@ -36,10 +36,10 @@ $json_data = json_decode($data, TRUE);
 		<div class="col-md-4"></div>
 	</div>
 	<div class="row" style="">
-		<div class="col-md-6">
+		<div class="col-md-6 col-sm-6 col-xs-6">
 			<center><h2>Symptoms</h2></center>
 		</div>
-		<div class="col-md-6">
+		<div class="col-md-6 col-sm-6 col-xs-6">
 			<center><h2>Conditions</h2></center>
 		</div>
 	</div>
