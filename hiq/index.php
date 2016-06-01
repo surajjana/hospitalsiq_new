@@ -30,7 +30,7 @@
 		<div class="col-md-4"></div>
 		<div class="col-md-4">
 			
-				 <form role="form" action="data.php" method="get">
+				 <form role="form" action="data.php" method="post">
 					<div class="form-group">
 						<label>Gender:</label><br />
 					    <label class="radio-inline"><input type="radio" name="gender" value="male">Male</label>

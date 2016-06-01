@@ -1,5 +1,5 @@
 <?php  
-$data = file_get_contents('http://hospitalsiq.herokuapp.com/symptoms/'.$_GET['gender'].'/'.$_GET['age'].'/'.$_GET['body_part_id']);
+$data = file_get_contents('http://hospitalsiq.herokuapp.com/symptoms/'.$_POST['gender'].'/'.$_POST['age'].'/'.$_POST['body_part_id']);
 $json_data = json_decode($data, TRUE);
 /*for($i=0;$i<sizeof($json_data);$i++){
 	echo '<li>'.$json_data[$i]["name"].'</li>';
