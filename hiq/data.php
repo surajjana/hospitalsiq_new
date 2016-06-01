@@ -43,13 +43,13 @@ $json_data = json_decode($data, TRUE);
 			<center><h2>Conditions</h2></center>
 		</div>
 	</div>
-	<div class="row" style="margin-top:30px;">
+	<div class="row" style="margin-top:30px;word-wrap: break-word;">
 		<div class="col-md-6 col-sm-6 col-xs-6" style="padding-left:15px;padding-right:15px; ">
 			<?php  
 				for($i=0;$i<sizeof($json_data);$i++){
-					echo '<button class="btn btn-info btn-block" id="btn_'.(string)($i+1).'" onClick="$(this).Show(\''.($i+1).'\',\''.sizeof($json_data).'\');">'.$json_data[$i]["name"].'</button><br />';
+					echo '<button class="btn btn-info btn-block" id="btn_'.(string)($i+1).'" onClick="$(this).Show(\''.($i+1).'\',\''.sizeof($json_data).'\');" style="white-space:normal;">'.$json_data[$i]["name"].'</button><br />';
 				}
-			?>
+			?> 
 		</div>
 		<div class="col-md-6 col-sm-6 col-xs-6">
 			<?php  
@@ -65,7 +65,7 @@ $json_data = json_decode($data, TRUE);
 					echo '<div id="'.(string)($i+1).'" style="display:none;">';
 					for($j=0;$j<sizeof($json_data[$i]["conditions"]);$j++){
 						if(strlen($json_data[$i]["conditions"][$j]["cname"]) != 0){
-							echo '<button class="btn btn-warning btn-block">'.$json_data[$i]["conditions"][$j]["cname"].'</button>';
+							echo '<button class="btn btn-warning btn-block" style="white-space:normal;">'.$json_data[$i]["conditions"][$j]["cname"].'</button>';
 						}
 					}
 					echo '</div>';
