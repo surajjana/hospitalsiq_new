@@ -36,11 +36,18 @@ $json_data = json_decode($data, TRUE);
 		<div class="col-md-4"></div>
 	</div>
 	<div class="row" style="">
-		<div class="col-md-6 col-sm-6 col-xs-6">
+		<div class="col-md-6 hidden-sm hidden-xs">
 			<center><h2>Symptoms</h2></center>
 		</div>
-		<div class="col-md-6 col-sm-6 col-xs-6">
+		<div class="col-md-6 hidden-sm hidden-xs">
 			<center><h2>Conditions</h2></center>
+		</div>
+
+		<div class="col-sm-6 col-xs-6 hidden-md hidden-lg">
+			<center><h4>Symptoms</h4></center>
+		</div>
+		<div class="col-sm-6 col-xs-6 hidden-md hidden-lg">
+			<center><h4>Conditions</h4></center>
 		</div>
 	</div>
 	<div class="row" style="margin-top:30px;word-wrap: break-word;">
