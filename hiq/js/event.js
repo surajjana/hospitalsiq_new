@@ -21,7 +21,7 @@ $.fn.Symp = function(i,j,size){
     for(k=1;k<=size;k++){
         if(k == j){
             $("#btn_"+i+"_"+j).removeClass("btn-warning").addClass("btn-danger");
-            $("#btn_"+i+"_submit").css("display","block");
+            $("#btn_submit").css("display","block");
         }else{
             $("#btn_"+i+"_"+k).removeClass("btn-danger").addClass("btn-warning");
         }

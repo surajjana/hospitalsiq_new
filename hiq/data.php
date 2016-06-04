@@ -79,6 +79,7 @@ $json_data = json_decode($data, TRUE);
 					echo '</div>';
 				}
 			?>
+			<button type="submit" class="btn btn-success btn-block" id="btn_submit" style="margin-top:15px;display:none;">Submit</button>
 			
 		</div>
 	</div>
