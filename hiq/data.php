@@ -72,9 +72,10 @@ $json_data = json_decode($data, TRUE);
 					echo '<div id="'.(string)($i+1).'" style="display:none;">';
 					for($j=0;$j<sizeof($json_data[$i]["conditions"]);$j++){
 						if(strlen($json_data[$i]["conditions"][$j]["cname"]) != 0){
-							echo '<button class="btn btn-warning btn-block" style="white-space:normal;">'.$json_data[$i]["conditions"][$j]["cname"].'</button>';
+							echo '<button class="btn btn-warning btn-block" id="btn_'.(string)($i+1).'_'.(string)($j+1).'" style="white-space:normal;" onClick="$(this).Symp(\''.($i+1).'\',\''.($j+1).'\',\''.sizeof($json_data[$i]["conditions"]).'\');">'.$json_data[$i]["conditions"][$j]["cname"].'</button>';
 						}
 					}
+					echo '<button class="btn btn-success btn-block" id="btn_'.(string)($i+1).'_submit" style="display:none;">Submit</button>';
 					echo '</div>';
 				}
 			?>

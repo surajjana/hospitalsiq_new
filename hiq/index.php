@@ -14,6 +14,39 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false&libraries=places"></script>
+
+	
+
+	<script type="text/javascript">
+
+	$(document).ready(function(){
+
+		google.maps.event.addDomListener(window, 'load', function () {
+            var places = new google.maps.places.Autocomplete(document.getElementById('loc'));
+            google.maps.event.addListener(places, 'place_changed', function () {
+                var place = places.getPlace();
+                var address = place.formatted_address;
+                var latitude = place.geometry.location.lat();
+                var longitude = place.geometry.location.lng();
+                console.log("Latitude : "+latitude);
+                console.log("Longitude : "+longitude);
+                document.getElementById("lon").value = longitude;
+                if(places!='\0')
+                {
+                    $('#addr').text(address);
+                    $('#lat').val(latitude);
+                    $('#lon').val(longitude);
+                    $("#location").hide();
+                    $('#general_info').css('display', 'block');
+                }
+            });
+        });
+	});
+
+	</script>
+
 </head>
 <body>
 <div class="container" style="margin-top:25px;">
@@ -26,11 +59,34 @@
 		</div>
 		<div class="col-md-4"></div>
 	</div>
-	<div class="row" style="margin-top:100px;">
+
+	<div class="row" id="location" style="margin-top:100px;">
+		<div class="col-md-2"></div>
+		<div class="col-md-8 hidden-sm hidden-xs">
+			<center>
+				<input type="text" name="loc" id="loc" size="50">
+			</center>
+		</div>
+		<!-- <div class="col-sm-12 col-xs-12 hidden-lg hidden-md">
+			<center>
+				<input type="text" name="loc_m" id="loc_m" size="25">
+			</center>
+		</div> -->
+		<div class="col-md-2"></div>
+	</div>
+
+
+	<div class="row" id="general_info" style="margin-top:100px;display:none;">
 		<div class="col-md-4"></div>
 		<div class="col-md-4">
 			
 				 <form role="form" action="data.php" method="post">
+				 	<div class="form-group">
+						<label>Location:</label><br />
+					    <label id="addr"></label>
+					    <input type="hidden" id="lat" name="lat" value="">
+					    <input type="hidden" id="lon" name="lon" value="">
+					</div>
 					<div class="form-group">
 						<label>Gender:</label><br />
 					    <label class="radio-inline"><input type="radio" name="gender" value="male">Male</label>
@@ -122,8 +178,8 @@
 							<option value="64">Toes</option>
 							<!-- <option value="65"></option>
 							<option value="66"></option>
-							<option value="67"></option>
-							<option value="68"></option> -->
+							<option value="67"></option> -->
+							<option value="68">Skin</option>
 						</select>
 					</div>
 						<button type="submit" class="btn btn-default">Submit</button>
