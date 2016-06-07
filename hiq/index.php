@@ -62,9 +62,9 @@
 
 	<div class="row" id="location" style="margin-top:100px;">
 		<div class="col-md-2"></div>
-		<div class="col-md-8 hidden-sm hidden-xs">
+		<div class="col-md-8 col-sm-12 col-xs-12">
 			<center>
-				<input type="text" name="loc" id="loc" size="50">
+				<input type="text" name="loc" id="loc" size="30">
 			</center>
 		</div>
 		<!-- <div class="col-sm-12 col-xs-12 hidden-lg hidden-md">

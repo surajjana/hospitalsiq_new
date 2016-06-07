@@ -8,6 +8,7 @@ $.fn.Show = function(id,size) {
     		/*if($('#btn_'+i).hasClass('btn-default')){*/
     		$("#btn_"+i).removeClass("btn-danger").addClass("btn-info");
     		$('#'+i).css("display","none");
+            $("#btn_submit").css("display","none");
     	}else{
     		$("#btn_"+id).removeClass("btn-info").addClass("btn-danger");
     		$('#'+id).css("display","block");
