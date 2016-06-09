@@ -36,6 +36,7 @@
                 if(places!='\0')
                 {
                     $('#addr').text(address);
+                    $('#addr_info').val(address);
                     $('#lat').val(latitude);
                     $('#lon').val(longitude);
                     $("#location").hide();
@@ -84,6 +85,7 @@
 				 	<div class="form-group">
 						<label>Location:</label><br />
 					    <label id="addr"></label>
+					    <input type="hidden" id="addr_info" name="addr_info" value="">
 					    <input type="hidden" id="lat" name="lat" value="">
 					    <input type="hidden" id="lon" name="lon" value="">
 					</div>

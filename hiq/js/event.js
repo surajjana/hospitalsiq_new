@@ -8,7 +8,8 @@ $.fn.Show = function(id,size) {
     		/*if($('#btn_'+i).hasClass('btn-default')){*/
     		$("#btn_"+i).removeClass("btn-danger").addClass("btn-info");
     		$('#'+i).css("display","none");
-            $("#btn_submit").css("display","none");
+            $("#symp_id").val("");
+            $("#btn_submit").css("display","block");
     	}else{
     		$("#btn_"+id).removeClass("btn-info").addClass("btn-danger");
     		$('#'+id).css("display","block");
@@ -19,10 +20,11 @@ $.fn.Show = function(id,size) {
 
 $.fn.Symp = function(i,j,size){
     console.log("Button ID : btn_"+i+"_"+j);
+    $("#symp_id").val("btn_"+i+"_"+j);
     for(k=1;k<=size;k++){
         if(k == j){
             $("#btn_"+i+"_"+j).removeClass("btn-warning").addClass("btn-danger");
-            $("#btn_submit").css("display","block");
+            /*$("#btn_submit").css("display","block");*/
         }else{
             $("#btn_"+i+"_"+k).removeClass("btn-danger").addClass("btn-warning");
         }

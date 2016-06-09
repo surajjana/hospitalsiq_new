@@ -75,12 +75,17 @@ $json_data = json_decode($data, TRUE);
 							echo '<button class="btn btn-warning btn-block" id="btn_'.(string)($i+1).'_'.(string)($j+1).'" style="white-space:normal;" onClick="$(this).Symp(\''.($i+1).'\',\''.($j+1).'\',\''.sizeof($json_data[$i]["conditions"]).'\');">'.$json_data[$i]["conditions"][$j]["cname"].'</button>';
 						}
 					}
-					echo '<button class="btn btn-success btn-block" id="btn_'.(string)($i+1).'_submit" style="display:none;">Submit</button>';
-					echo '</div>';
+/*					echo '<button  class="btn btn-success btn-block" id="btn_'.(string)($i+1).'_submit" style="display:none;">Submit</button>';
+*/					echo '</div>';
 				}
 			?>
-			<button type="submit" class="btn btn-success btn-block" id="btn_submit" style="margin-top:15px;display:none;">Submit</button>
-			
+			<form action="hosp.php" method="post">
+				<input type="hidden" name="symp_id" id="symp_id" value="">
+				<input type="hidden" name="addr_info" value="<?php echo $_POST['addr_info']; ?>">
+				<input type="hidden" name="lat" value="<?php echo $_POST['lat']; ?>">
+				<input type="hidden" name="lon" value="<?php echo $_POST['lon']; ?>">
+				<button type="submit" class="btn btn-success btn-block" id="btn_submit" style="margin-top:15px;display:none;">Submit</button>
+			</form>
 		</div>
 	</div>
 </div>
