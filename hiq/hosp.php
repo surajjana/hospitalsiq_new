@@ -54,16 +54,16 @@ $data = json_decode($data, true);
 						echo '<div class="row">
 								<div class="col-md-4 col-sm-12 col-xs-12">
 									<center>
-										<a href="detail.php?id='.$data["result"][$i]["id"].'"><img src="img/hosp.png" style="width:60%;"></a>
+										<img src="img/hosp.png" style="width:60%;">
 									</center>
 								</div>
 								<div class="col-md-8 hidden-sm hidden-xs">
-									<a href="detail.php?id='.$data["result"][$i]["id"].'"><h4>'.$data["result"][$i]["name"].'</h4></a>
+									<h4>'.$data["result"][$i]["name"].'</h4>
 									<p>'.$data["result"][$i]["address"].'</p>
 								</div>
 								<div class="col-sm-12 col-xs-12 hidden-lg hidden-md">
 									<center>
-										<a href="detail.php?id='.$data["result"][$i]["id"].'"><h4>'.$data["result"][$i]["name"].'</h4></a>
+										<h4>'.$data["result"][$i]["name"].'</h4>
 										<p>'.$data["result"][$i]["address"].'</p>
 									</center>
 								</div>
