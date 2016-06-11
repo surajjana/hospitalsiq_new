@@ -24,7 +24,7 @@ $data = json_decode($data, true);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Hospitals IQ | Showing Hospitals Near <?php echo $_POST['addr_info']; ?></title>
+	<title>Hospitals IQ | Showing Hospitals Near <?php echo $_POST['addr_info'].' | '.$dept; ?></title>
 
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -52,17 +52,15 @@ $data = json_decode($data, true);
 		<div class="col-md-2"></div>
 		<div class="col-md-8 col-sm-12 col-xs-12">
 			<h3>Showing Hospitals Near <?php echo $_POST['addr_info']; ?></h3>
-			<?php  
-				if(strcmp($data['status'],'NA') != 0){
-					echo '<h4>Department : '.$data["department"].'</h4>';
-				}
-			?>
+			<h4>Department : <?php echo $dept; ?></h4>
 		</div>
 		<div class="col-md-2"></div>
 	</div>
 	<br />
 	<div class="row">
-		<div class="col-md-2"></div>
+		<div class="col-md-2">
+			<div style="display:none;"><?php echo "http://hospitalsiq.herokuapp.com/search/web/surajjana/".$_POST['lat']."/".$_POST['lon']."/".urlencode($dept)."/20"; ?></div>
+		</div>
 		<div class="col-md-8">
 			<?php  
 				if(strcmp($data["status"],"NA") != 0){
