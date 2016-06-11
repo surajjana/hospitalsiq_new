@@ -1,0 +1,3186 @@
+[
+  {
+    "department": "Orthopaedics",
+    "condition": "ACL knee injury"
+  },
+  {
+    "department": "Neurology",
+    "condition": "ALS dementia"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Abdominal migraine"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Abscess"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Acetaminophen (Tylenol) poisoning"
+  },
+  {
+    "department": "Gastroenterology",
+    "condition": "Achalasia"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Achilles tendon rupture"
+  },
+  {
+    "department": "ENT",
+    "condition": "Acoustic neuroma"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Acrocyanosis"
+  },
+  {
+    "department": "Dermatology",
+    "condition": "Actinic keratosis"
+  },
+  {
+    "department": "Ophthalmology",
+    "condition": "Acute angle-closure glaucoma"
+  },
+  {
+    "department": "Urology",
+    "condition": "Acute kidney failure"
+  },
+  {
+    "department": "ENT",
+    "condition": "Acute sinusitis"
+  },
+  {
+    "department": "Psychiatry",
+    "condition": "Acute stress reaction"
+  },
+  {
+    "department": "Ophthalmology",
+    "condition": "Adie's pupil"
+  },
+  {
+    "department": "Ophthalmology",
+    "condition": "Age-related maculopathy"
+  },
+  {
+    "department": "Psychiatry",
+    "condition": "Agoraphobia"
+  },
+  {
+    "department": "Psychiatry",
+    "condition": "Alcohol intoxication"
+  },
+  {
+    "department": "Psychiatry",
+    "condition": "Alcohol withdrawal (delirium tremens)"
+  },
+  {
+    "department": "Psychiatry",
+    "condition": "Alcoholism"
+  },
+  {
+    "department": "Immunology",
+    "condition": "Allergic reaction"
+  },
+  {
+    "department": "Dermatology",
+    "condition": "Alopecia"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Alzheimer's disease"
+  },
+  {
+    "department": "Gastroenterology",
+    "condition": "Amebiasis"
+  },
+  {
+    "department": "Gynaecology",
+    "condition": "Amenorrhea, primary"
+  },
+  {
+    "department": "Psychiatry",
+    "condition": "Amphetamine withdrawal"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Amyloidosis"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Amyotrophic lateral sclerosis (Lou Gehrig disease)"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Anal abscess"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Anal fissure"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Anaphylactic shock"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Anemia"
+  },
+  {
+    "department": "Hematology",
+    "condition": "Anemia, aplastic"
+  },
+  {
+    "department": "Hematology",
+    "condition": "Anemia, chronic disease"
+  },
+  {
+    "department": "Hematology",
+    "condition": "Anemia, hemolytic"
+  },
+  {
+    "department": "Hematology",
+    "condition": "Anemia, iron deficiency"
+  },
+  {
+    "department": "Immunology",
+    "condition": "Angioedema"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Angular cheilitis"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Ankylosing spondylitis"
+  },
+  {
+    "department": "Psychiatry",
+    "condition": "Anorexia nervosa"
+  },
+  {
+    "department": "ENT",
+    "condition": "Anosmia"
+  },
+  {
+    "department": "Pulmonology",
+    "condition": "Anthrax (inhaled)"
+  },
+  {
+    "department": "Dermatology",
+    "condition": "Anthrax (skin)"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Antibiotic use"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Antibiotic-associated diarrhea"
+  },
+  {
+    "department": "Cardiology",
+    "condition": "Aortic aneurysm (abdomen)"
+  },
+  {
+    "department": "Cardiology",
+    "condition": "Aortic regurgitation"
+  },
+  {
+    "department": "Cardiology",
+    "condition": "Aortic stenosis"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Appendicitis"
+  },
+  {
+    "department": "Pulmonology",
+    "condition": "Asbestosis"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Ascaris worms"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Ascites"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Asperger syndrome"
+  },
+  {
+    "department": "Emergency Medicine",
+    "condition": "Aspirin poisoning"
+  },
+  {
+    "department": "Cardiology",
+    "condition": "Aspirin use"
+  },
+  {
+    "department": "Paediatrics",
+    "condition": "Asthma (child)"
+  },
+  {
+    "department": "Pulmonology",
+    "condition": "Asthma (teen and adult)"
+  },
+  {
+    "department": "Ophthalmology",
+    "condition": "Astigmatism"
+  },
+  {
+    "department": "Dermatology",
+    "condition": "Atopic dermatitis"
+  },
+  {
+    "department": "Cardiology",
+    "condition": "Atrial fibrillation"
+  },
+  {
+    "department": "Cardiology",
+    "condition": "Atrial flutter"
+  },
+  {
+    "department": "Psychiatry",
+    "condition": "Attention deficit hyperactivity disorder (ADHD)"
+  },
+  {
+    "department": "Dermatology",
+    "condition": "Atypical mole (nevus)"
+  },
+  {
+    "department": "ENT",
+    "condition": "Auricular hematoma"
+  },
+  {
+    "department": "Psychiatry",
+    "condition": "Autism"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Avascular necrosis"
+  },
+  {
+    "department": "Pulmonology",
+    "condition": "Bacterial pneumonia"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Baker's cyst"
+  },
+  {
+    "department": "Emergency Medicine",
+    "condition": "Barbiturate abuse"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Barrett esophagus"
+  },
+  {
+    "department": "Gynaecology",
+    "condition": "Bartholin cyst"
+  },
+  {
+    "department": "Dermatology",
+    "condition": "Basal cell skin cancer"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Bee or wasp stings"
+  },
+  {
+    "department": "ENT",
+    "condition": "Bells palsy"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Benign essential tremor"
+  },
+  {
+    "department": "Ophthalmology",
+    "condition": "Benign eye floaters"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Benign lipoma"
+  },
+  {
+    "department": "ENT",
+    "condition": "Benign paroxysmal positional vertigo (BPPV)"
+  },
+  {
+    "department": "Psychiatry",
+    "condition": "Benzodiazepine abuse"
+  },
+  {
+    "department": "Urology",
+    "condition": "Berger's disease (Idiopathic hematuria)"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Biceps rupture"
+  },
+  {
+    "department": "Psychiatry",
+    "condition": "Bipolar disorder"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Bird (avian) flu"
+  },
+  {
+    "department": "Ophthalmology",
+    "condition": "Black eye"
+  },
+  {
+    "department": "Urology",
+    "condition": "Bladder cancer"
+  },
+  {
+    "department": "Urology",
+    "condition": "Bladder outlet obstruction"
+  },
+  {
+    "department": "Urology",
+    "condition": "Bladder stones"
+  },
+  {
+    "department": "Gastroenterology",
+    "condition": "Bleeding esophageal varices"
+  },
+  {
+    "department": "Ophthalmology",
+    "condition": "Blepharitis"
+  },
+  {
+    "department": "Ophthalmology",
+    "condition": "Blocked tear (nasolacrimal) duct"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Blood clot in the legs"
+  },
+  {
+    "department": "Hematology",
+    "condition": "Blood clotting disorder"
+  },
+  {
+    "department": "Dermatology",
+    "condition": "Body lice"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Boil"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Bone spurs"
+  },
+  {
+    "department": "Emergency Medicine",
+    "condition": "Botulinum poisoning"
+  },
+  {
+    "department": "Urology",
+    "condition": "Botulinum toxin (Botox) injection"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Brachial plexus nerve injury"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Brain aneurysm"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Brain infection"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Brain injury"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Brain tumor"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Breast cancer (female)"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Breast cancer (male)"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Breast cyst"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Breast infection"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Broken (Boxer's fracture) hand"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Broken (Colles fractured) wrist"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Broken (Smith fracture) wrist"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Broken (fractured) ankle"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Broken (fractured) breastbone"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Broken (fractured) collarbone"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Broken (fractured) elbow"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Broken (fractured) eye socket"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Broken (fractured) facial bone"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Broken (fractured) finger"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Broken (fractured) foot"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Broken (fractured) forearm"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Broken (fractured) hand"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Broken (fractured) hip"
+  },
+  {
+    "department": "ENT",
+    "condition": "Broken (fractured) jaw"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Broken (fractured) low back vertebra"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Broken (fractured) lower leg"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Broken (fractured) neck vertebra"
+  },
+  {
+    "department": "ENT",
+    "condition": "Broken (fractured) nose"
+  },
+  {
+    "department": "Cardiology",
+    "condition": "Broken (fractured) rib(s)"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Broken (fractured) shoulder blade"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Broken (fractured) tailbone"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Broken (fractured) toe"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Broken (fractured) upper arm"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Broken (fractured) upper back vertebra"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Broken (fractured) upper leg"
+  },
+  {
+    "department": "Pulmonology",
+    "condition": "Bronchial adenoma"
+  },
+  {
+    "department": "Pulmonology",
+    "condition": "Bronchiolitis"
+  },
+  {
+    "department": "Pulmonology",
+    "condition": "Bronchitis"
+  },
+  {
+    "department": "Emergency Medicine",
+    "condition": "Brown recluse spider bite"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Bruise or contusion"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Bruised shin"
+  },
+  {
+    "department": "Gastroenterology",
+    "condition": "Budd-Chiari syndrome"
+  },
+  {
+    "department": "Psychiatry",
+    "condition": "Bulimia"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Bunions"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Burn (heat or fire)"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Bursitis (ankle)"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Bursitis (anserine)"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Bursitis (iliopsoas)"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Bursitis (ischiogluteal)"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Bursitis (olecranon)"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Bursitis (pre-patellar)"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Bursitis (sub-deltoid)"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Bursitis (trochanteric)"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "CREST syndrome"
+  },
+  {
+    "department": "Psychiatry",
+    "condition": "Caffeine withdrawal"
+  },
+  {
+    "department": "Gastroenterology",
+    "condition": "Campylobacter"
+  },
+  {
+    "department": "Dermatology",
+    "condition": "Candidiasis"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Canker sores"
+  },
+  {
+    "department": "Emergency Medicine",
+    "condition": "Carbon monoxide poisoning"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Carpal tunnel syndrome"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Cat-scratch disease"
+  },
+  {
+    "department": "Ophthalmology",
+    "condition": "Cataract surgery (lens implant)"
+  },
+  {
+    "department": "Ophthalmology",
+    "condition": "Cataracts"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Cauda equina syndrome"
+  },
+  {
+    "department": "ENT",
+    "condition": "Cauliflower ear"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Cavernous sinus thrombosis"
+  },
+  {
+    "department": "Gastroenterology",
+    "condition": "Celiac disease"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Cerebral palsy"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Cervical (neck) herniated disk"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Cervical (neck) spinal stenosis"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Cervical (neck) spondylosis"
+  },
+  {
+    "department": "Gynaecology",
+    "condition": "Cervical cancer"
+  },
+  {
+    "department": "Gynaecology",
+    "condition": "Cervicitis"
+  },
+  {
+    "department": "Gastroenterology",
+    "condition": "Chagas disease"
+  },
+  {
+    "department": "Ophthalmology",
+    "condition": "Chalazion"
+  },
+  {
+    "department": "Dermatology",
+    "condition": "Chemical burns"
+  },
+  {
+    "department": "Pulmonology",
+    "condition": "Chemical pneumonia"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Chickenpox (varicella)"
+  },
+  {
+    "department": "Psychiatry",
+    "condition": "Child abuse"
+  },
+  {
+    "department": "Gynaecology",
+    "condition": "Chlamydia (female)"
+  },
+  {
+    "department": "Dermatology",
+    "condition": "Chlamydia (male)"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Cholera"
+  },
+  {
+    "department": "Cardiology",
+    "condition": "Cholesterol emboli"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Chondromalacia patella"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Chronic fatigue syndrome (CFIDS)"
+  },
+  {
+    "department": "Nephrology",
+    "condition": "Chronic kidney disease"
+  },
+  {
+    "department": "Pulmonology",
+    "condition": "Chronic obstructive pulmonary disease (COPD)"
+  },
+  {
+    "department": "Urology",
+    "condition": "Chronic pelvic pain"
+  },
+  {
+    "department": "ENT",
+    "condition": "Chronic sinusitis"
+  },
+  {
+    "department": "Gastroenterology",
+    "condition": "Cirrhosis (liver)"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Club foot"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Cluster headache"
+  },
+  {
+    "department": "Psychiatry",
+    "condition": "Cocaine abuse"
+  },
+  {
+    "department": "Psychiatry",
+    "condition": "Cocaine withdrawal"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Cold exposure"
+  },
+  {
+    "department": "Paediatrics",
+    "condition": "Colic (infant)"
+  },
+  {
+    "department": "Gastroenterology",
+    "condition": "Colon cancer"
+  },
+  {
+    "department": "Gastroenterology",
+    "condition": "Colon polyps"
+  },
+  {
+    "department": "Ophthalmology",
+    "condition": "Color blindness"
+  },
+  {
+    "department": "ENT",
+    "condition": "Common cold"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Concussion"
+  },
+  {
+    "department": "Cardiology",
+    "condition": "Congestive heart failure"
+  },
+  {
+    "department": "Gastroenterology",
+    "condition": "Constipation (adult)"
+  },
+  {
+    "department": "Paediatrics",
+    "condition": "Constipation (child)"
+  },
+  {
+    "department": "Dermatology",
+    "condition": "Contact dermatitis"
+  },
+  {
+    "department": "Ophthalmology",
+    "condition": "Contact lens use"
+  },
+  {
+    "department": "Ophthalmology",
+    "condition": "Corneal abrasion (scratch)"
+  },
+  {
+    "department": "Ophthalmology",
+    "condition": "Corneal flash burns"
+  },
+  {
+    "department": "Ophthalmology",
+    "condition": "Corneal ulcer"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Corns and calluses"
+  },
+  {
+    "department": "Cardiology",
+    "condition": "Coronary artery disease (female)"
+  },
+  {
+    "department": "Cardiology",
+    "condition": "Coronary artery disease (male)"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Costochondritis"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Coxsackie virus infection"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Crabs"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Cradle cap"
+  },
+  {
+    "department": "Gastroenterology",
+    "condition": "Crohn's disease"
+  },
+  {
+    "department": "ENT",
+    "condition": "Croup"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Cryptococcosis"
+  },
+  {
+    "department": "Diabetes",
+    "condition": "Cushing's syndrome"
+  },
+  {
+    "department": "Emergency Medicine",
+    "condition": "Cyanide poisoning"
+  },
+  {
+    "department": "Pulmonology",
+    "condition": "Cystic fibrosis"
+  },
+  {
+    "department": "Dermatology",
+    "condition": "Dandruff"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Degenerative disc disease"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Dehydration (Adult)"
+  },
+  {
+    "department": "Paediatrics",
+    "condition": "Dehydration (Children)"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Dementia in head injury"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Dementia with Lewy bodies"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Dengue fever"
+  },
+  {
+    "department": "Dental",
+    "condition": "Dental abscess"
+  },
+  {
+    "department": "Dental",
+    "condition": "Dental caries (cavities)"
+  },
+  {
+    "department": "Psychiatry",
+    "condition": "Depression (Adult)"
+  },
+  {
+    "department": "Psychiatry",
+    "condition": "Depression (Child and Adolescent)"
+  },
+  {
+    "department": "Psychiatry",
+    "condition": "Depression (Postpartum)"
+  },
+  {
+    "department": "Dermatology",
+    "condition": "Dermatitis"
+  },
+  {
+    "department": "Dermatology",
+    "condition": "Dermatomyositis"
+  },
+  {
+    "department": "Dermatology",
+    "condition": "Deshidrotic eczema"
+  },
+  {
+    "department": "Diabetes",
+    "condition": "Diabetes insipidus"
+  },
+  {
+    "department": "Diabetes",
+    "condition": "Diabetes,  type 1"
+  },
+  {
+    "department": "Diabetes",
+    "condition": "Diabetes,  type 2"
+  },
+  {
+    "department": "Ophthalmology",
+    "condition": "Diabetic eye disease"
+  },
+  {
+    "department": "Emergency Medicine",
+    "condition": "Diabetic ketoacidosis"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Diabetic neuropathy"
+  },
+  {
+    "department": "Dietary",
+    "condition": "Dietary changes"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Dislocated elbow"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Dislocated finger"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Dislocated knee"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Dislocated shoulder"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Diverticulitis"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Diverticulosis"
+  },
+  {
+    "department": "Paediatrics",
+    "condition": "Down syndrome"
+  },
+  {
+    "department": "Dietary",
+    "condition": "Drinking fluids before bed"
+  },
+  {
+    "department": "Immunology",
+    "condition": "Drug allergy"
+  },
+  {
+    "department": "Psychiatry",
+    "condition": "Drug dependence and abuse"
+  },
+  {
+    "department": "Emergency Medicine",
+    "condition": "Drug overdose"
+  },
+  {
+    "department": "Emergency Medicine",
+    "condition": "Drug withdrawal"
+  },
+  {
+    "department": "Ophthalmology",
+    "condition": "Dry eye syndrome"
+  },
+  {
+    "department": "Ophthalmology",
+    "condition": "Dry eyes"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Dry mouth"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Dry mouth syndrome (xerostomia)"
+  },
+  {
+    "department": "Dermatology",
+    "condition": "Dry skin"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Dupuytren's contracture"
+  },
+  {
+    "department": "Immunology",
+    "condition": "Dust exposure"
+  },
+  {
+    "department": "Gynaecology",
+    "condition": "Dysfunctional uterine bleeding"
+  },
+  {
+    "department": "Gynaecology",
+    "condition": "Dysmenorrhea (menstrual cramps)"
+  },
+  {
+    "department": "Gynaecology",
+    "condition": "Dyspareunia"
+  },
+  {
+    "department": "ENT",
+    "condition": "Ear canal infection"
+  },
+  {
+    "department": "ENT",
+    "condition": "Earwax blockage"
+  },
+  {
+    "department": "Dietary",
+    "condition": "Eating certain foods"
+  },
+  {
+    "department": "Psychiatry",
+    "condition": "Eating disorder"
+  },
+  {
+    "department": "Psychiatry",
+    "condition": "Eating too quickly"
+  },
+  {
+    "department": "Gynaecology",
+    "condition": "Ectopic pregnancy"
+  },
+  {
+    "department": "Dermatology",
+    "condition": "Eczema (child)"
+  },
+  {
+    "department": "Dermatology",
+    "condition": "Eczema (infants)"
+  },
+  {
+    "department": "Dermatology",
+    "condition": "Eczema (teen and adult)"
+  },
+  {
+    "department": "Emergency Medicine",
+    "condition": "Electrocution"
+  },
+  {
+    "department": "Pulmonology",
+    "condition": "Emphysema"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Encephalitis"
+  },
+  {
+    "department": "Cardiology",
+    "condition": "Endocarditis"
+  },
+  {
+    "department": "Gynaecology",
+    "condition": "Endometrial cancer"
+  },
+  {
+    "department": "Gynaecology",
+    "condition": "Endometriosis"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Epidermal (sebaceous) cyst"
+  },
+  {
+    "department": "Urology",
+    "condition": "Epididymitis"
+  },
+  {
+    "department": "ENT",
+    "condition": "Epiglottitis"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Epilepsy (absence or petit mal seizures)"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Epilepsy (complex partial seizures)"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Epilepsy (simple partial seizures)"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Epilepsy (temporal lobe)"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Epilepsy (tonic clonic or grand mal seizures)"
+  },
+  {
+    "department": "Urology",
+    "condition": "Erectile dysfunction"
+  },
+  {
+    "department": "Dermatology",
+    "condition": "Erythema migrans"
+  },
+  {
+    "department": "Dermatology",
+    "condition": "Erythema multiforme"
+  },
+  {
+    "department": "Dermatology",
+    "condition": "Erythema nodosum"
+  },
+  {
+    "department": "Gastroenterology",
+    "condition": "Esophageal cancer"
+  },
+  {
+    "department": "Gastroenterology",
+    "condition": "Esophageal spasm"
+  },
+  {
+    "department": "Gastroenterology",
+    "condition": "Esophageal stricture"
+  },
+  {
+    "department": "Gastroenterology",
+    "condition": "Esophageal varices"
+  },
+  {
+    "department": "Gastroenterology",
+    "condition": "Esophagitis"
+  },
+  {
+    "department": "Gynaecology",
+    "condition": "Estrogen supplement use (female)"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Excessive caffeine use"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Excessive fluid intake"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Excessive weight lifting or resistance activity"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Exercise or physical activity"
+  },
+  {
+    "department": "Cardiology",
+    "condition": "Exercise-induced asthma"
+  },
+  {
+    "department": "ENT",
+    "condition": "Exposure to loud noise"
+  },
+  {
+    "department": "Ophthalmology",
+    "condition": "Eye allergies"
+  },
+  {
+    "department": "Ophthalmology",
+    "condition": "Eye injury"
+  },
+  {
+    "department": "Ophthalmology",
+    "condition": "Eyelash curler use"
+  },
+  {
+    "department": "Ophthalmology",
+    "condition": "Eyelid inflammation (blepharitis)"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Facial tic"
+  },
+  {
+    "department": "Cardiology",
+    "condition": "Fainting (vasovagal syncope)"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Falls or injury"
+  },
+  {
+    "department": "Ophthalmology",
+    "condition": "Farsightedness (presbyopia)"
+  },
+  {
+    "department": "Paediatrics",
+    "condition": "Fever seizures in children"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Fibroadenoma"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Fibrocystic breasts"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Fibromyalgia"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Finger infection"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Finger injury"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Fingernail injury"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Fissured tongue"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Flatfeet"
+  },
+  {
+    "department": "Ophthalmology",
+    "condition": "Floppy eyelid syndrome"
+  },
+  {
+    "department": "Dermatology",
+    "condition": "Folliculitis"
+  },
+  {
+    "department": "Emergency Medicine",
+    "condition": "Food poisoning"
+  },
+  {
+    "department": "ENT",
+    "condition": "Foreign object in the ear canal"
+  },
+  {
+    "department": "Ophthalmology",
+    "condition": "Foreign object in the eye"
+  },
+  {
+    "department": "ENT",
+    "condition": "Foreign object in the nose"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Foreign object in the rectum"
+  },
+  {
+    "department": "Gynaecology",
+    "condition": "Foreign object in the vagina"
+  },
+  {
+    "department": "Cardiology",
+    "condition": "Frostbite"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Frozen shoulder"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Gallstones"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Ganglion cyst"
+  },
+  {
+    "department": "Gastroenterology",
+    "condition": "Gas pains"
+  },
+  {
+    "department": "Gastroenterology",
+    "condition": "Gastritis"
+  },
+  {
+    "department": "Gastroenterology",
+    "condition": "Gastroenteritis"
+  },
+  {
+    "department": "Gastroenterology",
+    "condition": "Gastrointestinal bleeding"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Gaucher disease (early-onset)"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Gaucher disease (late-onset)"
+  },
+  {
+    "department": "Psychiatry",
+    "condition": "Generalized anxiety disorder"
+  },
+  {
+    "department": "Gynaecology",
+    "condition": "Genital herpes (female)"
+  },
+  {
+    "department": "Urology",
+    "condition": "Genital herpes (male)"
+  },
+  {
+    "department": "Cardiology",
+    "condition": "Giant cell arteritis (temporal arteritis)"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Giardiasis"
+  },
+  {
+    "department": "Dental",
+    "condition": "Gingivitis"
+  },
+  {
+    "department": "Ophthalmology",
+    "condition": "Glaucoma"
+  },
+  {
+    "department": "Nephrology",
+    "condition": "Glomerulonephritis"
+  },
+  {
+    "department": "Nephrology",
+    "condition": "Glycogen Storage Disease Type II"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Goiter"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Golfer's elbow"
+  },
+  {
+    "department": "Gynaecology",
+    "condition": "Gonorrhea (female)"
+  },
+  {
+    "department": "Urology",
+    "condition": "Gonorrhea (male)"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Gout"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Grief reaction"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Hair coloring or chemical processing"
+  },
+  {
+    "department": "Dermatology",
+    "condition": "Hair loss, female"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Hammertoe and mallet toe"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Hamstring injury"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Hay fever"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Head injury"
+  },
+  {
+    "department": "Dermatology",
+    "condition": "Head lice"
+  },
+  {
+    "department": "ENT",
+    "condition": "Hearing loss"
+  },
+  {
+    "department": "Cardiology",
+    "condition": "Heart attack (female)"
+  },
+  {
+    "department": "Cardiology",
+    "condition": "Heart attack (male)"
+  },
+  {
+    "department": "Cardiology",
+    "condition": "Heart rhythm disorder"
+  },
+  {
+    "department": "Gastroenterology",
+    "condition": "Heartburn/GERD"
+  },
+  {
+    "department": "Emergency Medicine",
+    "condition": "Heat cramps"
+  },
+  {
+    "department": "Emergency Medicine",
+    "condition": "Heat exhaustion"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Heat exposure"
+  },
+  {
+    "department": "Emergency Medicine",
+    "condition": "Heat stroke (hyperthermia)"
+  },
+  {
+    "department": "Gastroenterology",
+    "condition": "Helicobacter pylori infection"
+  },
+  {
+    "department": "Hematology",
+    "condition": "Hematoma"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Hemolytic uremic syndrome"
+  },
+  {
+    "department": "Hematology",
+    "condition": "Hemophilia"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Hemorrhoids"
+  },
+  {
+    "department": "Hematology",
+    "condition": "Henoch-schonlein purpura"
+  },
+  {
+    "department": "Gastroenterology",
+    "condition": "Hepatitis A"
+  },
+  {
+    "department": "Gastroenterology",
+    "condition": "Hepatitis B"
+  },
+  {
+    "department": "Gastroenterology",
+    "condition": "Hepatitis C"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Hernia"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Hidradenitis suppurativa"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "High blood pressure (hypertension)"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Hip (acetabular) labral tear"
+  },
+  {
+    "department": "Diabetes",
+    "condition": "Hirsutism"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Histoplasmosis"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Hives"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Horner's syndrome"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Huntington disease"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Hydrocele"
+  },
+  {
+    "department": "Urology",
+    "condition": "Hydronephrosis"
+  },
+  {
+    "department": "ENT",
+    "condition": "Hyperacusis"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Hyperhidrosis"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Hyperparathyroidism"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Hypersomnia disorder"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Hyperthyroidism"
+  },
+  {
+    "department": "Pulmonology",
+    "condition": "Hyperventilation"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Hypocalcemia"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Hypoparathyroidism"
+  },
+  {
+    "department": "Diabetes",
+    "condition": "Hypopituitarism"
+  },
+  {
+    "department": "Emergency Medicine",
+    "condition": "Hypothermia"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Hypothyroidism (adult)"
+  },
+  {
+    "department": "Paediatrics",
+    "condition": "Hypothyroidism (infant and child)"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Idiopathic edema"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Impingemenent syndrome"
+  },
+  {
+    "department": "Gastroenterology",
+    "condition": "Indigestion"
+  },
+  {
+    "department": "Immunology",
+    "condition": "Indoor allergens"
+  },
+  {
+    "department": "Gastroenterology",
+    "condition": "Inflammatory bowel disease"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Influenza (flu) adults"
+  },
+  {
+    "department": "Paediatrics",
+    "condition": "Influenza (flu) child"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Ingrown toenail"
+  },
+  {
+    "department": "Emergency Medicine",
+    "condition": "Inhalant intoxication"
+  },
+  {
+    "department": "Emergency Medicine",
+    "condition": "Insect bites"
+  },
+  {
+    "department": "Emergency Medicine",
+    "condition": "Insect sting"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Insomnia"
+  },
+  {
+    "department": "Emergency Medicine",
+    "condition": "Insulin reaction (hypoglycemia)"
+  },
+  {
+    "department": "Urology",
+    "condition": "Interstitial cystitis"
+  },
+  {
+    "department": "Pulmonology",
+    "condition": "Interstitial lung disease"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Intestinal Ileus"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Intestinal ischemia"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Intestinal obstruction"
+  },
+  {
+    "department": "Emergency Medicine",
+    "condition": "Intoxication"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Intracranial hematoma"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Intussusception"
+  },
+  {
+    "department": "Ophthalmology",
+    "condition": "Iritis"
+  },
+  {
+    "department": "Emergency Medicine",
+    "condition": "Iron poisoning"
+  },
+  {
+    "department": "Gastroenterology",
+    "condition": "Irritable bowel syndrome"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Japanese encephalitis"
+  },
+  {
+    "department": "Dermatology",
+    "condition": "Jock itch"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Jumping frenchmen"
+  },
+  {
+    "department": "Rheumatology",
+    "condition": "Juvenile rheumatoid arthritis"
+  },
+  {
+    "department": "Cardiology",
+    "condition": "Kawasaki disease"
+  },
+  {
+    "department": "Ophthalmology",
+    "condition": "Keratoconus"
+  },
+  {
+    "department": "Nephrology",
+    "condition": "Kidney infection (pyelonephritis)"
+  },
+  {
+    "department": "Urology",
+    "condition": "Kidney stones"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Knee meniscus tear"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Knee strain"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Kyphosis"
+  },
+  {
+    "department": "ENT",
+    "condition": "Labyrinthitis"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Lack of exercise"
+  },
+  {
+    "department": "Gynaecology",
+    "condition": "Lactation (breastfeeding) mastitis"
+  },
+  {
+    "department": "Gastroenterology",
+    "condition": "Lactose intolerance"
+  },
+  {
+    "department": "ENT",
+    "condition": "Laryngitis"
+  },
+  {
+    "department": "Ophthalmology",
+    "condition": "Lazy eye"
+  },
+  {
+    "department": "Emergency Medicine",
+    "condition": "Lead poisoning"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Leg cramps"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Legg-Calve-Perthes disease"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Legionella (Legionnaires disease)"
+  },
+  {
+    "department": "Urology",
+    "condition": "Levator ani syndrome"
+  },
+  {
+    "department": "Emergency Medicine",
+    "condition": "Local anesthetic toxicity"
+  },
+  {
+    "department": "Emergency Medicine",
+    "condition": "Low blood pressure (hypotension)"
+  },
+  {
+    "department": "Emergency Medicine",
+    "condition": "Low blood sugar (hypoglycemia)"
+  },
+  {
+    "department": "Dietary",
+    "condition": "Low fiber diet"
+  },
+  {
+    "department": "Emergency Medicine",
+    "condition": "Low potassium (hypokalemia)"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Lumbar (low back) herniated disk"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Lumbar (low back) strain"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Lumbar spinal stenosis"
+  },
+  {
+    "department": "Pulmonology",
+    "condition": "Lung cancer (non small cell)"
+  },
+  {
+    "department": "Pulmonology",
+    "condition": "Lung cancer (small cell)"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Lupus (systemic lupus erythematosus)"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Lyme disease"
+  },
+  {
+    "department": "Urology",
+    "condition": "Lymphogranuloma venereum"
+  },
+  {
+    "department": "Oncology",
+    "condition": "Lymphoma"
+  },
+  {
+    "department": "Ophthalmology",
+    "condition": "Macular degeneration"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Mad cow disease"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Malaria"
+  },
+  {
+    "department": "Dermatology",
+    "condition": "Male pattern baldness"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Mallet finger"
+  },
+  {
+    "department": "Gastroenterology",
+    "condition": "Mallory-Weiss syndrome"
+  },
+  {
+    "department": "Dietary",
+    "condition": "Malnutrition"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Malocclusion (bite out of alignment)"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Marijuana (cannibis) use"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Mastitis (infectious)"
+  },
+  {
+    "department": "Paediatrics",
+    "condition": "Measles"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Median nerve injury"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Medication reaction or side-effect"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Melanoma (skin cancer)"
+  },
+  {
+    "department": "ENT",
+    "condition": "Meniere's disease"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Meningitis"
+  },
+  {
+    "department": "Gynaecology",
+    "condition": "Menopause"
+  },
+  {
+    "department": "Gynaecology",
+    "condition": "Menorrhagia"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Mesenteric lymphadenitis"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Metabolic syndrome"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Metatarsalgia"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Methamphetamine use"
+  },
+  {
+    "department": "Emergency Medicine",
+    "condition": "Methanol poisoning"
+  },
+  {
+    "department": "ENT",
+    "condition": "Middle ear infection"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Migraine headache (adult)"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Migraine headache (children)"
+  },
+  {
+    "department": "Gynaecology",
+    "condition": "Miscarriage"
+  },
+  {
+    "department": "Cardiology",
+    "condition": "Mitral valve prolapse"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Mononucleosis"
+  },
+  {
+    "department": "ENT",
+    "condition": "Morning sickness"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Morton's neuroma"
+  },
+  {
+    "department": "ENT",
+    "condition": "Motion sickness"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Mouth (oral) cancer"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Mucopolysaccharidosis I (MPS1)"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Mucopolysaccharidosis type II (MPS2)"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Multiple sclerosis"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Mumps"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Muscle strain"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Myasthenia gravis"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Myotonia congenita"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Myotonic dystrophy"
+  },
+  {
+    "department": "Emergency Medicine",
+    "condition": "Myxedema coma"
+  },
+  {
+    "department": "Pulmonology",
+    "condition": "Narcolepsy"
+  },
+  {
+    "department": "Emergency Medicine",
+    "condition": "Narcotic abuse"
+  },
+  {
+    "department": "ENT",
+    "condition": "Nasal congestion"
+  },
+  {
+    "department": "ENT",
+    "condition": "Nasal dryness"
+  },
+  {
+    "department": "ENT",
+    "condition": "Nasal irritation"
+  },
+  {
+    "department": "ENT",
+    "condition": "Nasal polyps"
+  },
+  {
+    "department": "Ophthalmology",
+    "condition": "Nearsightedness"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Neck strain"
+  },
+  {
+    "department": "Paediatrics",
+    "condition": "Newborn jaundice"
+  },
+  {
+    "department": "Emergency Medicine",
+    "condition": "Nicotine withdrawal/cessation of smoking"
+  },
+  {
+    "department": "Psychiatry",
+    "condition": "Night eating syndrome"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Night terrors"
+  },
+  {
+    "department": "Psychiatry",
+    "condition": "Nightmares"
+  },
+  {
+    "department": "Gynaecology",
+    "condition": "Nipple irritation"
+  },
+  {
+    "department": "Gynaecology",
+    "condition": "Nipple stimulation"
+  },
+  {
+    "department": "Emergency Medicine",
+    "condition": "Nitrogen narcosis"
+  },
+  {
+    "department": "Immunology",
+    "condition": "Nonallergic rhinitis"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Normal age-related changes"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Normal age-related forgetfulness"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Normal variation"
+  },
+  {
+    "department": "Ophthalmology",
+    "condition": "Normal-tension glaucoma"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Noroviruses (Norwalk-like viruses)"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Not chewing food well"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Nursemaid elbow"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Obesity"
+  },
+  {
+    "department": "Psychiatry",
+    "condition": "Obsessive compulsive personality disorder"
+  },
+  {
+    "department": "Ophthalmology",
+    "condition": "Ocular migraine"
+  },
+  {
+    "department": "Ophthalmology",
+    "condition": "Optic neuritis"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Oral (mouth) herpes"
+  },
+  {
+    "department": "Urology",
+    "condition": "Orchitis"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Osgood-Schlatter disease"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Osteoarthritis"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Osteochondritis dessicans"
+  },
+  {
+    "department": "Paediatrics",
+    "condition": "Osteogenesis imperfecta"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Osteomyelitis (bone infection)"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Osteoporosis"
+  },
+  {
+    "department": "Gynaecology",
+    "condition": "Ovarian cancer"
+  },
+  {
+    "department": "Gynaecology",
+    "condition": "Ovarian cysts"
+  },
+  {
+    "department": "Urology",
+    "condition": "Overactive bladder syndrome"
+  },
+  {
+    "department": "Psychiatry",
+    "condition": "Overeating"
+  },
+  {
+    "department": "Gastroenterology",
+    "condition": "Pancreatic cancer"
+  },
+  {
+    "department": "Gastroenterology",
+    "condition": "Pancreatitis"
+  },
+  {
+    "department": "Psychiatry",
+    "condition": "Panic attack"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Parkinson disease"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Paronychia"
+  },
+  {
+    "department": "Nephrology",
+    "condition": "Paroxysmal nocturnal hemoglobinuria (PNH)"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Patellofemoral pain syndrome"
+  },
+  {
+    "department": "Cardiology",
+    "condition": "Pectus excavatum"
+  },
+  {
+    "department": "Paediatrics",
+    "condition": "Pellagra"
+  },
+  {
+    "department": "Gynaecology",
+    "condition": "Pelvic inflammatory disease (PID)"
+  },
+  {
+    "department": "Dermatology",
+    "condition": "Pemphigus"
+  },
+  {
+    "department": "Gastroenterology",
+    "condition": "Peptic ulcer"
+  },
+  {
+    "department": "Cardiology",
+    "condition": "Pericarditis"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Perichondritis"
+  },
+  {
+    "department": "Gynaecology",
+    "condition": "Perimenopause"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Periodic limb movement disorder"
+  },
+  {
+    "department": "Dental",
+    "condition": "Periodontal (gum) disease"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Peripheral neuropathy"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Peripheral vascular disease"
+  },
+  {
+    "department": "ENT",
+    "condition": "Peritonsillar abscess"
+  },
+  {
+    "department": "Urology",
+    "condition": "Peyronie's disease"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Phencyclidine use"
+  },
+  {
+    "department": "Cardiology",
+    "condition": "Phlebitis"
+  },
+  {
+    "department": "Psychiatry",
+    "condition": "Physical abuse"
+  },
+  {
+    "department": "Gynaecology",
+    "condition": "Pica"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Pick disease"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Pilonidal cyst"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Pinched nerve or stinger"
+  },
+  {
+    "department": "Ophthalmology",
+    "condition": "Pink eye (conjunctivitis)"
+  },
+  {
+    "department": "Gastroenterology",
+    "condition": "Pinworms"
+  },
+  {
+    "department": "Dermatology",
+    "condition": "Pityriasis rosea"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Plague"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Plantar fasciitis"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Plantar warts"
+  },
+  {
+    "department": "Pulmonology",
+    "condition": "Pleural effusion"
+  },
+  {
+    "department": "Pulmonology",
+    "condition": "Pleurisy"
+  },
+  {
+    "department": "Pulmonology",
+    "condition": "Pneumonia"
+  },
+  {
+    "department": "Pulmonology",
+    "condition": "Pneumonitis"
+  },
+  {
+    "department": "Cardiology",
+    "condition": "Pneumothorax (spontaneous)"
+  },
+  {
+    "department": "Emergency Medicine",
+    "condition": "Poison ivy, oak, and sumac"
+  },
+  {
+    "department": "Emergency Medicine",
+    "condition": "Poisoning"
+  },
+  {
+    "department": "Urology",
+    "condition": "Polycystic kidney disease"
+  },
+  {
+    "department": "Gynaecology",
+    "condition": "Polycystic ovary syndrome (PCOS)"
+  },
+  {
+    "department": "Rheumatology",
+    "condition": "Polymyalgia rheumatica"
+  },
+  {
+    "department": "Gastroenterology",
+    "condition": "Pompe disease (early-onset)"
+  },
+  {
+    "department": "Gastroenterology",
+    "condition": "Pompe disease (late-onset)"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Poorly fitting shoes"
+  },
+  {
+    "department": "Hematology",
+    "condition": "Porphyria"
+  },
+  {
+    "department": "Psychiatry",
+    "condition": "Post-traumatic stress disorder (PTSD)"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Postconcussive syndrome"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Posterior cruciate ligament (PCL) injury"
+  },
+  {
+    "department": "Paediatrics",
+    "condition": "Prader-Willi syndrome"
+  },
+  {
+    "department": "Hematology",
+    "condition": "Pre-leukemia (myelodysplastic syndrome)"
+  },
+  {
+    "department": "Gynaecology",
+    "condition": "Precocious puberty"
+  },
+  {
+    "department": "Gynaecology",
+    "condition": "Pregnancy"
+  },
+  {
+    "department": "Gynaecology",
+    "condition": "Pregnancy, round ligament pain"
+  },
+  {
+    "department": "Gynaecology",
+    "condition": "Premature labor"
+  },
+  {
+    "department": "Cardiology",
+    "condition": "Premature ventricular contractions (PVCs)"
+  },
+  {
+    "department": "Gynaecology",
+    "condition": "Premenstrual dysphoric disorder (PMDD)"
+  },
+  {
+    "department": "Gynaecology",
+    "condition": "Premenstrual syndrome (PMS)"
+  },
+  {
+    "department": "Urology",
+    "condition": "Priapism"
+  },
+  {
+    "department": "Gastroenterology",
+    "condition": "Primary biliary cirrhosis"
+  },
+  {
+    "department": "Ophthalmology",
+    "condition": "Primary congenital glaucoma"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Proctalgia fugax"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Proctitis"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Progressive supranuclear palsy"
+  },
+  {
+    "department": "Urology",
+    "condition": "Prolapsed bladder"
+  },
+  {
+    "department": "Gynaecology",
+    "condition": "Prolapsed uterus"
+  },
+  {
+    "department": "Urology",
+    "condition": "Prostate cancer"
+  },
+  {
+    "department": "Urology",
+    "condition": "Prostate gland enlargement"
+  },
+  {
+    "department": "Urology",
+    "condition": "Prostatitis"
+  },
+  {
+    "department": "Rheumatology",
+    "condition": "Pseudogout"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Pseudohypoparathyroidism"
+  },
+  {
+    "department": "Dermatology",
+    "condition": "Psoriasis"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Psoriatic arthritis"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Puberty"
+  },
+  {
+    "department": "Pulmonology",
+    "condition": "Pulmonary embolism"
+  },
+  {
+    "department": "Pulmonology",
+    "condition": "Pulmonary fibrosis"
+  },
+  {
+    "department": "Pulmonology",
+    "condition": "Pulmonary hypertension"
+  },
+  {
+    "department": "Dermatology",
+    "condition": "Pustular psoriasis"
+  },
+  {
+    "department": "Gastroenterology",
+    "condition": "Pyloric stenosis"
+  },
+  {
+    "department": "Neurology",
+    "condition": "REM sleep behavior disorder"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Rabies"
+  },
+  {
+    "department": "Ophthalmology",
+    "condition": "Radial keratotomy (Lasik) surgery"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Radiation sickness"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Radon exposure"
+  },
+  {
+    "department": "Cardiology",
+    "condition": "Raynaud phenomenon"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Razor bumps"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Rectal cancer"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Rectal prolapse"
+  },
+  {
+    "department": "Urology",
+    "condition": "Renal cell (kidney) cancer"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Repetitive motion injuries"
+  },
+  {
+    "department": "Pulmonology",
+    "condition": "Respiratory syncytial virus"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Restless legs syndrome"
+  },
+  {
+    "department": "Ophthalmology",
+    "condition": "Retinal detachment"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Reye's syndrome"
+  },
+  {
+    "department": "Cardiology",
+    "condition": "Rheumatic fever"
+  },
+  {
+    "department": "Rheumatology",
+    "condition": "Rheumatoid arthritis"
+  },
+  {
+    "department": "ENT",
+    "condition": "Rhinophyma"
+  },
+  {
+    "department": "Emergency Medicine",
+    "condition": "Ricin poisoning"
+  },
+  {
+    "department": "Dermatology",
+    "condition": "Ringworm (scalp or face)"
+  },
+  {
+    "department": "Dermatology",
+    "condition": "Rosacea"
+  },
+  {
+    "department": "Dermatology",
+    "condition": "Roseola"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Rotator cuff injury"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Rotavirus"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Rubbing eyelids"
+  },
+  {
+    "department": "ENT",
+    "condition": "Ruptured eardrum"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Salivary duct obstruction (sialolithiasis)"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Salmonella"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Sarcoidosis"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Saturday night palsy"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Scarlet fever"
+  },
+  {
+    "department": "Psychiatry",
+    "condition": "Schizoaffective disorder"
+  },
+  {
+    "department": "Psychiatry",
+    "condition": "Schizophrenia"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Sciatica"
+  },
+  {
+    "department": "Dermatology",
+    "condition": "Scleroderma"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Scoliosis"
+  },
+  {
+    "department": "Dietary",
+    "condition": "Scurvy (vitamin C deficiency)"
+  },
+  {
+    "department": "Psychiatry",
+    "condition": "Seasonal depression (SAD)"
+  },
+  {
+    "department": "Dermatology",
+    "condition": "Seborrheic dermatitis"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Separated shoulder"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Septic arthritis"
+  },
+  {
+    "department": "Emergency Medicine",
+    "condition": "Severe acute respiratory syndrome (SARS)"
+  },
+  {
+    "department": "Emergency Medicine",
+    "condition": "Severe allergic reaction (anaphylactic shock)"
+  },
+  {
+    "department": "Gastroenterology",
+    "condition": "Shigellosis"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Shin splints"
+  },
+  {
+    "department": "Dermatology",
+    "condition": "Shingles (herpes zoster)"
+  },
+  {
+    "department": "Emergency Medicine",
+    "condition": "Shock"
+  },
+  {
+    "department": "Anesthesiology",
+    "condition": "Short-acting sedative use"
+  },
+  {
+    "department": "Hematology",
+    "condition": "Sickle cell crisis"
+  },
+  {
+    "department": "Hematology",
+    "condition": "Sickle cell disease"
+  },
+  {
+    "department": "Dermatology",
+    "condition": "Sjogren's syndrome"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Skier's thumb"
+  },
+  {
+    "department": "Pulmonology",
+    "condition": "Sleep apnea"
+  },
+  {
+    "department": "Pulmonology",
+    "condition": "Sleep deprivation"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Sleep disorder (elderly)"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Slipped capital femoral epiphysis"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Small intestine cancer"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Smoke exposure"
+  },
+  {
+    "department": "Psychiatry",
+    "condition": "Social anxiety disorder"
+  },
+  {
+    "department": "Urology",
+    "condition": "Spermatocele"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Spina bifida"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Spinal meningitis"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Spinal tumor"
+  },
+  {
+    "department": "Dermatology",
+    "condition": "Sporotrichosis"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Sprained ankle"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Stomach cancer"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Stool holding (encopresis)"
+  },
+  {
+    "department": "ENT",
+    "condition": "Strained voice (vocal cords)"
+  },
+  {
+    "department": "ENT",
+    "condition": "Strep throat"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Stress fractures"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Stroke"
+  },
+  {
+    "department": "Ophthalmology",
+    "condition": "Stuck eyelash"
+  },
+  {
+    "department": "Ophthalmology",
+    "condition": "Sty (hordeolum)"
+  },
+  {
+    "department": "Ophthalmology",
+    "condition": "Subconjunctival hemorrhage (bleeding in eye)"
+  },
+  {
+    "department": "Psychiatry",
+    "condition": "Substance-induced mood disorder"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Subungual hematoma (bleeding under nail)"
+  },
+  {
+    "department": "Dermatology",
+    "condition": "Sunburn"
+  },
+  {
+    "department": "Cardiology",
+    "condition": "Supraventricular tachycardia"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Swallowed object"
+  },
+  {
+    "department": "ENT",
+    "condition": "Swimmer's ear"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Swollen glands"
+  },
+  {
+    "department": "Anesthesiology",
+    "condition": "Synaesthesia"
+  },
+  {
+    "department": "Gynaecology",
+    "condition": "Syphilis (female)"
+  },
+  {
+    "department": "Urology",
+    "condition": "Syphilis (male)"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Taking Pepto-bismol (bismuth)"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Taking iron supplements"
+  },
+  {
+    "department": "Urology",
+    "condition": "Taking pyridium"
+  },
+  {
+    "department": "Dietary",
+    "condition": "Taking vitamin supplements"
+  },
+  {
+    "department": "Paediatrics",
+    "condition": "Teething"
+  },
+  {
+    "department": "Dermatology",
+    "condition": "Telogen effluvium"
+  },
+  {
+    "department": "Dental",
+    "condition": "Temporomandibular joint syndrome (TMJ)"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Tendinitis"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Tennis elbow"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Tension headache"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Test condition"
+  },
+  {
+    "department": "Urology",
+    "condition": "Testicular cancer"
+  },
+  {
+    "department": "Urology",
+    "condition": "Testicular torsion"
+  },
+  {
+    "department": "Urology",
+    "condition": "Testosterone deficiency"
+  },
+  {
+    "department": "Gynaecology",
+    "condition": "Testosterone supplement use (female)"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Tetanus"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Tetany"
+  },
+  {
+    "department": "Cardiology",
+    "condition": "Tetralogy of Fallot"
+  },
+  {
+    "department": "Hematology",
+    "condition": "Thalassemia"
+  },
+  {
+    "department": "ENT",
+    "condition": "Thermal burn of mouth or tongue"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Thoracic (upper back) strain"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Thoracic spinal stenosis"
+  },
+  {
+    "department": "ENT",
+    "condition": "Throat cancer"
+  },
+  {
+    "department": "Hematology",
+    "condition": "Thrombocytopenia"
+  },
+  {
+    "department": "Cardiology",
+    "condition": "Thrombophlebitis"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Thrush (adults)"
+  },
+  {
+    "department": "Paediatrics",
+    "condition": "Thrush (infants and children)"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Thyroid cancer"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Thyroid nodules"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Thyroid storm"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Tick bite"
+  },
+  {
+    "department": "ENT",
+    "condition": "Tinnitus"
+  },
+  {
+    "department": "ENT",
+    "condition": "Tonsillitis"
+  },
+  {
+    "department": "Dental",
+    "condition": "Toothache"
+  },
+  {
+    "department": "Dental",
+    "condition": "Toothbrush irritation"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Torticollis"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Tourette syndrome"
+  },
+  {
+    "department": "Emergency Medicine",
+    "condition": "Toxic shock syndrome"
+  },
+  {
+    "department": "Paediatrics",
+    "condition": "Tracheo-esophageal fistula"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Transient global amnesia"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Transient ischemic attack (mini-stroke)"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Trauma or injury"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Traveler's diarrhea"
+  },
+  {
+    "department": "Dermatology",
+    "condition": "Trichomoniasis (female)"
+  },
+  {
+    "department": "Dermatology",
+    "condition": "Trichomoniasis (male)"
+  },
+  {
+    "department": "Dermatology",
+    "condition": "Trichotillomania"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Trigeminal neuralgia (facial nerve pain)"
+  },
+  {
+    "department": "ENT",
+    "condition": "Trismus"
+  },
+  {
+    "department": "Pulmonology",
+    "condition": "Tuberculosis"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Turf toe"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Typhoid fever"
+  },
+  {
+    "department": "Gastroenterology",
+    "condition": "Ulcerative colitis"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Ulnar nerve injury"
+  },
+  {
+    "department": "Dietary",
+    "condition": "Underweight"
+  },
+  {
+    "department": "ENT",
+    "condition": "Upper airway obstruction"
+  },
+  {
+    "department": "Urology",
+    "condition": "Urethritis (female)"
+  },
+  {
+    "department": "Urology",
+    "condition": "Urethritis (male)"
+  },
+  {
+    "department": "Urology",
+    "condition": "Urinary incontinence (overflow) female"
+  },
+  {
+    "department": "Urology",
+    "condition": "Urinary incontinence (overflow) male"
+  },
+  {
+    "department": "Urology",
+    "condition": "Urinary incontinence (stress) female"
+  },
+  {
+    "department": "Urology",
+    "condition": "Urinary incontinence (stress) male"
+  },
+  {
+    "department": "Urology",
+    "condition": "Urinary tract infection (UTI)"
+  },
+  {
+    "department": "Gynaecology",
+    "condition": "Uterine cancer"
+  },
+  {
+    "department": "Gynaecology",
+    "condition": "Uterine fibroids"
+  },
+  {
+    "department": "Gynaecology",
+    "condition": "Vaginal dryness"
+  },
+  {
+    "department": "Gynaecology",
+    "condition": "Vaginal prolapse"
+  },
+  {
+    "department": "Gynaecology",
+    "condition": "Vaginal yeast infection"
+  },
+  {
+    "department": "Gynaecology",
+    "condition": "Vaginitis"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Valley fever (coccidioidomycosis)"
+  },
+  {
+    "department": "Urology",
+    "condition": "Varicocele"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Varicose veins"
+  },
+  {
+    "department": "General Surgery",
+    "condition": "Venous insufficiency"
+  },
+  {
+    "department": "Cardiology",
+    "condition": "Ventricular septal defect"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Vertebral compression fracture (lumbar)"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Vertebral compression fracture (thoracic)"
+  },
+  {
+    "department": "Urology",
+    "condition": "Vesicoureteral reflux"
+  },
+  {
+    "department": "Gastroenterology",
+    "condition": "Viral gastroenteritis"
+  },
+  {
+    "department": "ENT",
+    "condition": "Viral pharyngitis"
+  },
+  {
+    "department": "Pulmonology",
+    "condition": "Viral pneumonia"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Viral syndrome"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Vitamin B12 deficiency"
+  },
+  {
+    "department": "ENT",
+    "condition": "Vocal cord polyp"
+  },
+  {
+    "department": "Gynaecology",
+    "condition": "Vulvodynia"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "Water retention"
+  },
+  {
+    "department": "Neurology",
+    "condition": "Wernicke syndrome"
+  },
+  {
+    "department": "General Medicine ",
+    "condition": "West nile virus"
+  },
+  {
+    "department": "Orthopaedics",
+    "condition": "Whiplash"
+  },
+  {
+    "department": "Pulmonology",
+    "condition": "Whooping cough"
+  },
+  {
+    "department": "Pulmonology",
+    "condition": "Wind exposure"
+  }
+]
