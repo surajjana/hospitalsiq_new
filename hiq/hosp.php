@@ -1,6 +1,6 @@
 <?php  
 
-$data = file_get_contents("http://hospitalsiq.herokuapp.com/search/web/surajjana/".$_POST['lat']."/".$_POST['lon']."/Orthopaedic/5");
+$data = file_get_contents("http://hospitalsiq.herokuapp.com/search/web/surajjana/".$_POST['lat']."/".$_POST['lon']."/".urlencode($_POST['symp_id'])."/5");
 
 $data = json_decode($data, true);
 
@@ -12,7 +12,7 @@ $data = json_decode($data, true);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Hospitals IQ | Hospitals Near <?php echo $_POST['addr_info']; ?></title>
+	<title>Hospitals IQ | Showing Hospitals Near <?php echo $_POST['addr_info'].' | '.$data['department']; ?></title>
 
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -38,8 +38,9 @@ $data = json_decode($data, true);
 	<br />
 	<div class="row">
 		<div class="col-md-2"></div>
-		<div class="col-md-8">
-			<h2>Hospitals Near <?php echo $_POST['addr_info']; ?></h2>
+		<div class="col-md-8 col-sm-12 col-xs-12">
+			<h3>Showing Hospitals Near <?php echo $_POST['addr_info']; ?></h3>
+			<h4>Department : <?php echo $data["department"]; ?></h4>
 		</div>
 		<div class="col-md-2"></div>
 	</div>
@@ -68,11 +69,15 @@ $data = json_decode($data, true);
 								</div>
 							</div>
 							<br />';
-						/*echo $data["result"][$i]["name"];
-						echo '<br />';*/
 					}
 				}else{
-					echo 'No Hospitals Found.. :-(';
+					echo '<div class="row">
+								<div class="col-md-4 col-sm-12 col-xs-12">
+									<center>
+										<h4>No Hospitals Found... :-(</h4>
+									</center>
+								</div>
+							</div>';
 				}
 			?>
 		</div>

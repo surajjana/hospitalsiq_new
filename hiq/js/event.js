@@ -20,7 +20,7 @@ $.fn.Show = function(id,size) {
 
 $.fn.Symp = function(i,j,size){
     console.log("Button ID : btn_"+i+"_"+j);
-    $("#symp_id").val("btn_"+i+"_"+j);
+    $("#symp_id").val($("#btn_"+i+"_"+j).attr("name"));
     for(k=1;k<=size;k++){
         if(k == j){
             $("#btn_"+i+"_"+j).removeClass("btn-warning").addClass("btn-danger");
