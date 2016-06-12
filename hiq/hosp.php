@@ -24,7 +24,7 @@ $data = json_decode($data, true);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Hospitals IQ | Showing Hospitals Near <?php echo $_POST['addr_info'].' | '.$dept; ?></title>
+	<title>Hospitals IQ | Showing Hospitals Near <?php echo $_POST['addr_info'].' | '.$dept.' | '.$_POST['symp_id']; ?></title>
 
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -52,6 +52,7 @@ $data = json_decode($data, true);
 		<div class="col-md-2"></div>
 		<div class="col-md-8 col-sm-12 col-xs-12">
 			<h3>Showing Hospitals Near <?php echo $_POST['addr_info']; ?></h3>
+			<h4>Condition : <?php echo $_POST['symp_id']; ?></h4>
 			<h4>Department : <?php echo $dept; ?></h4>
 		</div>
 		<div class="col-md-2"></div>
