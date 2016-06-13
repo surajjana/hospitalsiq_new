@@ -42,7 +42,7 @@ switch ($dept) {
 		break;
 }
 
-$data = file_get_contents("http://hospitalsiq.herokuapp.com/search/web/surajjana/".$_POST['lat']."/".$_POST['lon']."/".urlencode($dept)."/20");
+$data = file_get_contents("http://hospitalsiq.herokuapp.com/search/web/surajjana/".$_POST['lat']."/".$_POST['lon']."/".urlencode($dept)."/10");
 
 $data = json_decode($data, true);
 
