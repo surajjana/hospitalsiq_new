@@ -12,6 +12,36 @@ for($i=0;$i<sizeof($dept_data);$i++){
 	}
 }
 
+$f_dept = array("Gynaecology", "Gastroenterology", "Endocrinology", "Ophthalmology", "Paediatrics", "Psychiatry", "Orthopaedics");
+
+switch ($dept) {
+	case $f_dept[0]:
+		$dept = 'Gynecology';
+		break;
+	case $f_dept[1]:
+		$dept = 'Gastroenterologist';
+		break;
+	case $f_dept[2]:
+		$dept = 'Diabetes';
+		break;
+	case $f_dept[3]:
+		$dept = 'Opthalmology';
+		break;
+	case $f_dept[4]:
+		$dept = 'Children';
+		break;
+	case $f_dept[5]:
+		$dept = 'Psychiatric';
+		break;
+	case $f_dept[6]:
+		$dept = 'Orthopaedic';
+		break;
+	
+	default:
+		$dept = $dept;
+		break;
+}
+
 $data = file_get_contents("http://hospitalsiq.herokuapp.com/search/web/surajjana/".$_POST['lat']."/".$_POST['lon']."/".urlencode($dept)."/20");
 
 $data = json_decode($data, true);
