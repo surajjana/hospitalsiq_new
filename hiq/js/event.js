@@ -24,9 +24,13 @@ $.fn.Symp = function(i,j,size){
     for(k=1;k<=size;k++){
         if(k == j){
             $("#btn_"+i+"_"+j).removeClass("btn-warning").addClass("btn-danger");
+            /*$("#btn_"+i+"_"+j).text($("#btn_"+i+"_"+j).attr("name")+" | Test Department");
+            console.log($("#btn_"+i+"_"+j).text());*/
             /*$("#btn_submit").css("display","block");*/
         }else{
             $("#btn_"+i+"_"+k).removeClass("btn-danger").addClass("btn-warning");
+            /*console.log($("#btn_"+i+"_"+j).attr("name"));*/
+            /*$("#btn_"+i+"_"+j).text($("#btn_"+i+"_"+j).attr("name"));*/
         }
     }
 };

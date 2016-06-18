@@ -41,10 +41,10 @@ $data = json_decode($data, true);
             background-color: #fafafa;
             border: none;
             border-radius: 50%;
-            position: fixed;
+            position: relative;
             box-shadow: 0 1px 2px;
-            top: 625px;
-            right: 150px;
+            top: 475px;
+            right: 0px;
         }
 
     </style>
@@ -166,7 +166,7 @@ $data = json_decode($data, true);
     </div>
     <div class="row" id='list' style="display:none;"> 
         <div class="col-md-1"></div>
-        <div class="col-md-10">
+        <div class="col-md-9 col-sm-11 col-xs-11">
             <div id="List" style="width: 100%;">
                 <?php  
                 if(strcmp($data["status"],"NA") != 0){
@@ -192,6 +192,8 @@ $data = json_decode($data, true);
                     }
                 }?>
             </div>
+        </div>
+        <div class="col-md-1 col-sm-1 col-xs-1">
             <button id='map_btn'><i class="fa fa-map"></i></button>
         </div>
         <div class="col-md-1"></div>
