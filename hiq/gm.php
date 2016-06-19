@@ -41,10 +41,23 @@ $data = json_decode($data, true);
             background-color: #fafafa;
             border: none;
             border-radius: 50%;
-            position: relative;
+            position: fixed;
             box-shadow: 0 1px 2px;
-            top: 475px;
-            right: 0px;
+            top: 600px;
+            right: 200px;
+        }
+
+        #map_btn_mob{
+            width: 30px;
+            height: 30px;
+            float: right;
+            background-color: #fafafa;
+            border: none;
+            border-radius: 50%;
+            position: fixed;
+            box-shadow: 0 1px 2px;
+            top: 500px;
+            right: 15px;
         }
 
     </style>
@@ -74,6 +87,11 @@ $data = json_decode($data, true);
                 console.log('List Switch Button Clicked...');
             });
             $('#map_btn').click(function(){
+                $('#list').css("display", "none");
+                $('#map').css("display", "block");
+                console.log('Map Switch Button Clicked...');
+            });
+            $('#map_btn_mob').click(function(){
                 $('#list').css("display", "none");
                 $('#map').css("display", "block");
                 console.log('Map Switch Button Clicked...');
@@ -165,8 +183,8 @@ $data = json_decode($data, true);
         <div class="col-md-1"></div>
     </div>
     <div class="row" id='list' style="display:none;"> 
-        <div class="col-md-1"></div>
-        <div class="col-md-9 col-sm-11 col-xs-11">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
             <div id="List" style="width: 100%;">
                 <?php  
                 if(strcmp($data["status"],"NA") != 0){
@@ -192,9 +210,18 @@ $data = json_decode($data, true);
                     }
                 }?>
             </div>
+            <div class="row">
+                <div class="col-md-12 hidden-sm hidden-xs">
+                    <button id='map_btn'><i class="fa fa-map"></i></button>
+                </div>
+                <div class="col-sm-12 col-xs-12 hidden-lg hidden-md">
+                    <button id='map_btn_mob'><i class="fa fa-map"></i></button>
+                </div>
+            </div>
+            <!-- <button id='map_btn'><i class="fa fa-map"></i></button> -->
         </div>
-        <div class="col-md-1 col-sm-1 col-xs-1">
-            <button id='map_btn'><i class="fa fa-map"></i></button>
+        <div class="col-md-2">
+            <!-- <button id='map_btn'><i class="fa fa-map"></i></button> -->
         </div>
         <div class="col-md-1"></div>
     </div>
