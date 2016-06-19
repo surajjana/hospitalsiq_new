@@ -8,7 +8,13 @@ $obj->setData($_POST['symp_id']);
 
 $dept = $obj->get_the_dept();
 
-$data = file_get_contents("http://hospitalsiq.herokuapp.com/search/web/surajjana/".$_POST['lat']."/".$_POST['lon']."/".urlencode($dept)."/10");
+$r = 10;
+
+if((strcmp($dept,'General Medicine') == 0) || (strcmp($dept,'General Medicine ') == 0)){
+	$r = 5;
+}
+
+$data = file_get_contents("http://hospitalsiq.herokuapp.com/search/web/surajjana/".$_POST['lat']."/".$_POST['lon']."/".urlencode($dept)."/".$r);
 
 $data = json_decode($data, true);
 
@@ -20,7 +26,7 @@ $data = json_decode($data, true);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Hospitals IQ | Showing Hospitals Near <?php echo $_POST['addr_info'].' | '.$dept.' | '.$_POST['symp_id']; ?></title>
+	<title>Hospitals IQ | Showing <?php echo sizeof($data["result"]); ?> Hospitals Near <?php echo $_POST['addr_info'].' | '.$dept.' Department | '.$_POST['symp_id']; ?></title>
 
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -180,7 +186,7 @@ $data = json_decode($data, true);
 	<div class="row">
 		<div class="col-md-2"></div>
 		<div class="col-md-8 col-sm-12 col-xs-12">
-			<h3>Showing Hospitals Near <?php echo $_POST['addr_info']; ?></h3>
+			<h3>Showing <?php echo sizeof($data["result"]); ?> Hospitals Near <?php echo $_POST['addr_info']; ?></h3>
 			<h4>Condition : <?php echo $_POST['symp_id']; ?></h4>
 			<h4>Department : <?php echo $dept; ?></h4>
 		</div>
@@ -198,7 +204,7 @@ $data = json_decode($data, true);
 
 	<div class="row" style="display:none;" id="list">
 		<div class="col-md-2">
-			<div style="display:none;"><?php echo "http://hospitalsiq.herokuapp.com/search/web/surajjana/".$_POST['lat']."/".$_POST['lon']."/".urlencode($dept)."/20"; ?></div>
+			<div style="display:none;"><?php echo "http://hospitalsiq.herokuapp.com/search/web/surajjana/".$_POST['lat']."/".$_POST['lon']."/".urlencode($dept)."/".$r; ?></div>
 		</div>
 		<div class="col-md-8">
 			<?php  
