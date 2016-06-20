@@ -26,7 +26,7 @@ $data = json_decode($data, true);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Hospitals IQ | Showing <?php echo sizeof($data["result"]); ?> Hospitals Near <?php echo $_POST['addr_info'].' | '.$dept.' Department | '.$_POST['symp_id']; ?></title>
+	<title>Hospitals IQ | Showing <?php if(sizeof($data["result"]) > 1){echo sizeof($data["result"]).' Hospitals';}else{echo sizeof($data["result"]).' Hospital';} ?> Near <?php echo $_POST['addr_info'].' | '.$dept.' Department | '.$_POST['symp_id']; ?></title>
 
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -186,7 +186,7 @@ $data = json_decode($data, true);
 	<div class="row">
 		<div class="col-md-2"></div>
 		<div class="col-md-8 col-sm-12 col-xs-12">
-			<h3>Showing <?php echo sizeof($data["result"]); ?> Hospitals Near <?php echo $_POST['addr_info']; ?></h3>
+			<h3>Showing <?php if(sizeof($data["result"]) > 1){echo sizeof($data["result"]).' Hospitals';}else{echo sizeof($data["result"]).' Hospital';} ?> Near <?php echo $_POST['addr_info']; ?></h3>
 			<h4>Condition : <?php echo $_POST['symp_id']; ?></h4>
 			<h4>Department : <?php echo $dept; ?></h4>
 		</div>
