@@ -6,7 +6,9 @@ $json_data = json_decode($json_data, true);
 /*$val = array("ip"=>"8.8.8.8","time"=>"");
 array_push($json_data,$val);*/
 
-$details = json_decode(file_get_contents("http://ipinfo.io/json"), ture);
+$ip_addr = $_SERVER['REMOTE_ADDR'];
+
+$details = json_decode(file_get_contents("http://ipinfo.io/".$ip_addr."/json"), ture);
 
 $val = array("ip" => $details["ip"],
 				"hostname" => $details["hostname"],
@@ -217,5 +219,15 @@ fwrite($fl,$res);
 		<div class="col-md-4"></div>
 	</div>
 </div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-43349874-4', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </body>
 </html>
