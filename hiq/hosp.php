@@ -18,6 +18,12 @@ $data = file_get_contents("http://hospitalsiq.herokuapp.com/search/web/surajjana
 
 $data = json_decode($data, true);
 
+$res_size = sizeof($data["result"]);
+
+if(sizeof($data["result"]) > 10){
+    $res_size = 10;
+}
+
 ?>
 <html>
 <head>
@@ -26,7 +32,7 @@ $data = json_decode($data, true);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Hospitals IQ | Showing <?php if(sizeof($data["result"]) > 1){echo sizeof($data["result"]).' Hospitals';}else{echo sizeof($data["result"]).' Hospital';} ?> Near <?php echo $_POST['addr_info'].' | '.$dept.' Department | '.$_POST['symp_id']; ?></title>
+	<title>Hospitals IQ | Showing <?php if($res_size > 1){echo $res_size.' Hospitals';}else{echo $res_size.' Hospital';} ?> Near <?php echo $_POST['addr_info'].' | '.$dept.' Department | '.$_POST['symp_id']; ?></title>
 
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -86,8 +92,8 @@ $data = json_decode($data, true);
     </style>
 
     <script type="text/javascript">
-        var contentstring = [<?php for($i=0;$i<sizeof($data["result"]);$i++){if($i == sizeof($data["result"])-1){echo '"'.$data["result"][$i]["name"].'"';}else{echo '"'.$data["result"][$i]["name"].'",';}} ?>];
-        var regionlocation = [<?php for($i=0;$i<sizeof($data["result"]);$i++){if($i == sizeof($data["result"])-1){echo '"'.$data["result"][$i]["latitude"].', '.$data["result"][$i]["longitude"].'"';}else{echo '"'.$data["result"][$i]["latitude"].', '.$data["result"][$i]["longitude"].'",';}} ?>];
+        var contentstring = [<?php for($i=0;$i<$res_size;$i++){if($i == sizeof($data["result"])-1){echo '"'.$data["result"][$i]["name"].'"';}else{echo '"'.$data["result"][$i]["name"].'",';}} ?>];
+        var regionlocation = [<?php for($i=0;$i<$res_size;$i++){if($i == sizeof($data["result"])-1){echo '"'.$data["result"][$i]["latitude"].', '.$data["result"][$i]["longitude"].'"';}else{echo '"'.$data["result"][$i]["latitude"].', '.$data["result"][$i]["longitude"].'",';}} ?>];
         var markers = [];
         var iterator = 0;
         var areaiterator = 0;
@@ -186,7 +192,7 @@ $data = json_decode($data, true);
 	<div class="row">
 		<div class="col-md-2"></div>
 		<div class="col-md-8 col-sm-12 col-xs-12">
-			<h3>Showing <?php if(sizeof($data["result"]) > 1){echo sizeof($data["result"]).' Hospitals';}else{echo sizeof($data["result"]).' Hospital';} ?> Near <?php echo $_POST['addr_info']; ?></h3>
+			<h3>Showing <?php if($res_size > 1){echo $res_size.' Hospitals';}else{echo $res_size.' Hospital';} ?> Near <?php echo $_POST['addr_info']; ?></h3>
 			<h4>Condition : <?php echo $_POST['symp_id']; ?></h4>
 			<h4>Department : <?php echo $dept; ?></h4>
 		</div>
@@ -209,7 +215,7 @@ $data = json_decode($data, true);
 		<div class="col-md-8">
 			<?php  
 				if(strcmp($data["status"],"NA") != 0){
-					for($i=0;$i<sizeof($data["result"]);$i++){
+					for($i=0;$i<$res_size;$i++){
 						echo '<div class="row">
 								<div class="col-md-4 col-sm-12 col-xs-12">
 									<center>

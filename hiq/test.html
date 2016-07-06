@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Place Autocomplete | Example By Mp</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <div id="locationField">
+      <input id="loc" placeholder="Enter your address" type="text"></input>
+    </div>
+
+    <script>
+
+      var autocomplete;
+
+      function initAutocomplete() {
+      	var southWest = new google.maps.LatLng( 12.97232, 77.59480 );
+        var northEast = new google.maps.LatLng( 12.89201, 77.58905 );
+        var bangaloreBounds = new google.maps.LatLngBounds( southWest, northEast );
+        autocomplete = new google.maps.places.Autocomplete(
+           		(document.getElementById('loc')),
+            {types: ['geocode'], componentRestrictions: {country: "in"}, bounds: bangaloreBounds});
+        autocomplete.addListener('place_changed', getLoc);
+      }
+
+      function getLoc() {
+        var place = autocomplete.getPlace();
+        console.log('Latitude : '+place.geometry.location.lat());
+        console.log('Longitude : '+place.geometry.location.lng());
+      }
+
+
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3s8Q5zB993rGPC-iUEnUC9h0mj091-OI&libraries=places&callback=initAutocomplete"
+        async defer></script>
+  </body>
+</html>
