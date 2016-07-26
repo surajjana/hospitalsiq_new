@@ -72,7 +72,20 @@ fwrite($fl,$res);
                 }
             });
         });
+
 	});
+
+	function getLocation() {
+	    if (navigator.geolocation) {
+	        navigator.geolocation.getCurrentPosition(showPosition);
+	    } else { 
+	        x.innerHTML = "Geolocation is not supported by this browser.";
+	    }
+	}
+	function showPosition(position) {
+	    console.log("Latitude: " + position.coords.latitude); 
+	    console.log("Longitude: " + position.coords.longitude);
+	}
 
 	</script>
 
@@ -94,6 +107,7 @@ fwrite($fl,$res);
 		<div class="col-md-8 col-sm-12 col-xs-12">
 			<center>
 				<input type="text" name="loc" id="loc" size="30">
+				<button onclick="getLocation()">Use current location</button>
 			</center>
 		</div>
 		<!-- <div class="col-sm-12 col-xs-12 hidden-lg hidden-md">
