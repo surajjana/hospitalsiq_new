@@ -77,14 +77,14 @@ h4.heading:after {
   width: 100px;
   height: 1px;
   margin: 20px auto 20px;
-  background: #333333;
+  background: #999;
 }
 h4.heading-i {
   margin-bottom: 20px;
 }
 h4.heading-i:after {
   margin: 10px auto 20px;
-  background: #333333;
+  background: #000000;
 }
 .img-responsive {
   margin: 0 auto;
@@ -170,14 +170,14 @@ p.social a.email {
 }
 .copyright {
   margin-top: 40px;
-  color: #999999;
+  color: #333;
   font-style: italic;
 }
 .copyright p.credit {
   text-align: right;
 }
 .copyright p.credit a {
-  color: #999999;
+  color: #333;
 }
 @media (max-width: 991px) {
   .copyright p.credit {
