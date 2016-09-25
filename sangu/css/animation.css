@@ -1,0 +1,149 @@
+ /* For star animation */    .path {
+        fill:none;
+  stroke-dasharray: 5500;
+  stroke-dashoffset: 5500;
+  animation: dash 4s linear alternate;animation-fill-mode: forwards; 
+
+  
+}
+
+
+.fillpath{
+  fill:#fadf47;
+
+   transition:all 20s ease;
+  
+}
+
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 5500;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* For bot animation */
+
+
+       .bounce{
+      animation :bounce 1s infinite;
+    }
+    @keyframes bounce{
+      from{
+       -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+      }
+      to{
+        -webkit-transform: translate3d(0,2px,0);
+    transform: translate3d(0,2px,0);
+      }
+    }
+
+
+    @-webkit-keyframes{
+       from{
+       -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+      }
+      to{
+        -webkit-transform: translate3d(0,2px,0);
+    transform: translate3d(0,2px,0);
+      }
+    }
+/* Know your hospital animation */
+
+.path-q {
+  fill: none; 
+  stroke: #2c2c2c;  
+  font-size: 153.6000061px;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dashes 5s forwards normal infinite;
+  animation-iteration-count: 1;
+}
+
+.fill-q{
+  fill: #2c2c2c;
+}
+
+.path-p {
+  fill: none; 
+  stroke: #ff0000;  
+  font-size: 181.83177185px;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dashes 5s forwards normal infinite;
+  animation-iteration-count: 1;
+}
+
+.fill-p {
+  fill: #ff0000;
+}
+
+.plus {
+  fill: #ff0000; 
+    stroke: #ff0000;  
+    font-size: 181.83177185px;
+}
+
+.fade-out {
+  animation: fadeOut 1s ease-out 1;
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in 1;
+}
+
+@keyframes dashes {
+  from {
+    stroke-dashoffset: 1000;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+ .rays{
+    animation: lines 0.9s infinite;
+  }
+@-webkit-keyframes lines {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes lines {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

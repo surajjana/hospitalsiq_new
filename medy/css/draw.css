@@ -1,0 +1,19 @@
+.draw {
+		  fill: none; 
+		  stroke: #000000;  
+		  font-size: 50px;
+		  stroke-dasharray: 1000;
+		  stroke-dashoffset: 1000;
+		  animation: dash 10s forwards normal infinite;
+		  animation-iteration-count: 1;
+		}
+
+		.draw-plus {
+		  fill: none; 
+		  stroke: #ff0000;  
+		  font-size: 30px;
+		  stroke-dasharray: 1000;
+		  stroke-dashoffset: 1000;
+		  animation: dash 10s forwards normal infinite;
+		  animation-iteration-count: 1;
+		}
