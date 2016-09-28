@@ -17,8 +17,13 @@ body {
 .scrollpoint.active {
   opacity: 1 \0;
 }*/
-h2{
+h2,h4{
 color:#666;
+font-family: "Cardo",,"Times New Roman",Times,serif;
+}
+
+.header-content h4,h2{
+  color:#fff;
 }
 #join p{
   font-size:15px;
@@ -177,6 +182,7 @@ margin-top:30px;
 }
 #desc h4{
     color:#666;
+    font-size:18px;
    
 }
 #descs h4{
@@ -203,7 +209,7 @@ margin-top:30px;
   color:#555;
 }
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Arial', 'Helvetica Neue', Arial, sans-serif;
 }
 
 div{
@@ -224,14 +230,25 @@ a {
   color: #f05f40;
   outline:none !important ;
 }
+#mail {
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+  color: #333;
+  outline:none !important ;
 
+}
+#mail : hover{
+    outline:none !important ;
+    border:2px solid red ;
+}
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+font-family: "Cardo",,"Times New Roman",Times,serif;
 }
 p {
   font-size: 14px;
@@ -318,14 +335,15 @@ border-bottom: 2px solid rgba(73, 194, 183, 1);
   }
   .navbar-default.affix {
   
+  background:linear-gradient(rgba(222, 200, 132, 1),rgba(242, 220, 152, 1),rgba(252, 230, 162, 1));
 
       /* background:linear-gradient(rgba(210, 209, 225, 1),rgba(220, 219, 235, 1),rgba(240, 239, 255, 1));
       background:linear-gradient(#ccc,#ddd,#eee);*/
 /*     background:linear-gradient(rgba(250, 240, 210, 1),rgba(240, 225, 190, 1),rgba(240, 220, 160, 1));*/ /* For browsers that do not support gradients */
-   background: -webkit-linear-gradient(rgba(219, 255, 223, 1),rgba(239, 255, 243, 1),rgba(249, 255, 253, 1)); /* For Safari 5.1 to 6.0 */
-   background: -o-linear-gradient(rgba(219, 255, 223, 1),rgba(239, 255, 243, 1),rgba(249, 255, 253, 1)); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(rgba(219, 255, 223, 1),rgba(239, 255, 243, 1),rgba(249, 255, 253, 1));/* For Firefox 3.6 to 15 */
-    background:linear-gradient(rgba(219, 255, 223, 1),rgba(239, 255, 243, 1),rgba(249, 255, 253, 1));/* Standard syntax (must be last) */
+/*/*   background: -webkit-linear-gradient(rgba(219, 255, 223, 1),rgba(239, 255, 243, 1),rgba(249, 255, 253, 1)); /* For Safari 5.1 to 6.0 */
+   /*background: -o-linear-gradient(rgba(219, 255, 223, 1),rgba(239, 255, 243, 1),rgba(249, 255, 253, 1)); /* For Opera 11.1 to 12.0 */
+/*    background: -moz-linear-gradient(rgba(219, 255, 223, 1),rgba(239, 255, 243, 1),rgba(249, 255, 253, 1));*//* For Firefox 3.6 to 15 */
+/*    background:linear-gradient(rgba(219, 255, 223, 1),rgba(239, 255, 243, 1),rgba(249, 255, 253, 1));*/*//* Standard syntax (must be last) **/*//
     box-shadow: 1px 2px 6px  rgba(0,0,0,0.15);
 
     opacity:1;
@@ -350,6 +368,11 @@ border-bottom: 2px solid rgba(73, 194, 183, 1);
   }
 
 
+section h2,h4{
+  color:#666;
+font-family: "Cardo",,"Times New Roman",Times,serif;
+}
+
 
 header {
   position: relative;
@@ -366,12 +389,12 @@ header {
   text-align: center;
   color: white;
 
-  margin-bottom:-2%;
+  margin-bottom:-5%;
 }
 header .header-content {
   position: relative;
   text-align: center;
-  padding: 100px 15px 100px;
+  padding: 70px 15px 100px;
   width: 100%;
 }
 header .header-content .header-content-inner h1 {
@@ -395,7 +418,7 @@ header .header-content .header-content-inner p {
   }
   header .header-content {
     position: absolute;
-    top: 45%;
+    top: 25%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
