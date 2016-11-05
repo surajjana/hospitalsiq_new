@@ -290,6 +290,7 @@ text-transform: uppercase;
         $.post('https://heymedy.com:8000/heymedy_ping',{'name': name, 'email': email, 'phone': phone}, function(jd){
           $('#notify-1').css('display','none');
           $('#notify-res').css('display','block');
+          $('#notify-res-data').html('Thank you '+name+'. We will notify you when we are ready.');
           /*if(jd.status == "OK"){
             $('#notify-1').css('display','none')
             $('#notify-res').css('display','block')
@@ -937,7 +938,7 @@ This is an escrow account where you deposit a smaller portion of money and let i
             <div class="row">
               <div class="col-md-2"></div>
               <div class="col-md-8">
-                <center><p style="font-weight: bold; font-size: 25px;">Thank you. We will notify you when we are ready.</p></center>
+                <center><p id="notify-res-data" style="font-weight: bold; font-size: 25px;"></p></center>
               </div>
               <div class="col-md-2"></div>
             </div>
