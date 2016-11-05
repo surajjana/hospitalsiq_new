@@ -287,7 +287,7 @@ text-transform: uppercase;
         console.log('Name : '+name)
         console.log('Email : '+email)
         console.log('Phone : '+phone)
-        $.post('http://52.34.226.223:8000/heymedy_ping',{'name': name, 'email': email, 'phone': phone}, function(jd){
+        $.post('https://heymedy.com:8000/heymedy_ping',{'name': name, 'email': email, 'phone': phone}, function(jd){
           $('#notify-1').css('display','none');
           $('#notify-res').css('display','block');
           /*if(jd.status == "OK"){
