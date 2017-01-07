@@ -46,7 +46,7 @@ if(sizeof($data["result"]) > 10){
 
 	<script type="text/javascript" src="js/event.js"></script>
 
-	<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script>
+	<script type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyD3s8Q5zB993rGPC-iUEnUC9h0mj091-OI&sensor=false"></script>
 
 	<style type="text/css">
 
