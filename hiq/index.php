@@ -33,7 +33,7 @@ fwrite($fl,$res);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Hospitals IQ | Symptoms Home</title>
+	<title>Hey Medy | Symptoms Home</title>
 
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -75,7 +75,7 @@ fwrite($fl,$res);
 
 	});
 
-	function getLocation() {
+	/*function getLocation() {
 	    if (navigator.geolocation) {
 	        navigator.geolocation.getCurrentPosition(showPosition);
 	    } else { 
@@ -85,7 +85,7 @@ fwrite($fl,$res);
 	function showPosition(position) {
 	    console.log("Latitude: " + position.coords.latitude); 
 	    console.log("Longitude: " + position.coords.longitude);
-	}
+	}*/
 
 	</script>
 
@@ -96,7 +96,7 @@ fwrite($fl,$res);
 		<div class="col-md-4"></div>
 		<div class="col-md-4">
 			<center>
-				<img src="img/hIQ_logo.png" style="width:60%;">
+				<img src="img/logo.png" style="width:60%;">
 			</center>
 		</div>
 		<div class="col-md-4"></div>
@@ -107,7 +107,7 @@ fwrite($fl,$res);
 		<div class="col-md-8 col-sm-12 col-xs-12">
 			<center>
 				<input type="text" name="loc" id="loc" size="30">
-				<button onclick="getLocation()">Use current location</button>
+				<!-- <button onclick="getLocation()">Use current location</button> -->
 			</center>
 		</div>
 		<!-- <div class="col-sm-12 col-xs-12 hidden-lg hidden-md">

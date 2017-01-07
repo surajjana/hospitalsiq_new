@@ -32,7 +32,7 @@ if(sizeof($data["result"]) > 10){
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Hospitals IQ | Showing <?php if($res_size > 1){echo $res_size.' Hospitals';}else{echo $res_size.' Hospital';} ?> Near <?php echo $_POST['addr_info'].' | '.$dept.' Department | '.$_POST['symp_id']; ?></title>
+	<title>Hey Medy | Showing <?php if($res_size > 1){echo $res_size.' Hospitals';}else{echo $res_size.' Hospital';} ?> Near <?php echo $_POST['addr_info'].' | '.$dept.' Department | '.$_POST['symp_id']; ?></title>
 
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -183,7 +183,7 @@ if(sizeof($data["result"]) > 10){
 		<div class="col-md-4"></div>
 		<div class="col-md-4">
 			<center>
-				<img src="img/hIQ_logo.png" style="width:60%;">
+				<img src="img/logo.png" style="width:60%;">
 			</center>
 		</div>
 		<div class="col-md-4"></div>
